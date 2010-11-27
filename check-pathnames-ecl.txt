@@ -1,0 +1,156 @@
+[pjb@kuiper :0.0 ~]$ ecl -norc
+ECL (Embeddable Common-Lisp) 10.7.1
+Copyright (C) 1984 Taiichi Yuasa and Masami Hagiya
+Copyright (C) 1993 Giuseppe Attardi
+Copyright (C) 2000 Juan J. Garcia-Ripoll
+ECL is free software, and you are welcome to redistribute it
+under certain conditions; see file 'Copyright' for details.
+Type :h for Help.  
+Top level.
+> *features*
+
+(:LINUX :FORMATTER :LONG-LONG :UINT64-T :UINT32-T :UINT16-T
+ :RELATIVE-PACKAGE-NAMES :LONG-FLOAT :UNICODE :CLOS-STREAMS :CMU-FORMAT :UNIX
+ :ECL-PDE :DLOPEN :CLOS :BOEHM-GC :ANSI-CL :COMMON-LISP :IEEE-FLOATING-POINT
+ :PREFIXED-API :FFI :X86_64 :COMMON :ECL)
+> (load "/home/pjb/src/lisp/check-pathnames.lisp")
+
+;;; Loading "/home/pjb/src/lisp/check-pathnames.lisp"
+
+================================================================================
+
+Test and probe conforming logical pathnames, and their translation to
+unix physical pathnames.
+
+We want to check the good working of logical pathnames, and the
+translation of logical pathnames to physical pathnames, in a
+semi-standard way on unix systems.
+
+Namely, given the logical host and its translations:
+
+  (setf (logical-pathname-translations "LOGICAL") nil)
+  (setf (logical-pathname-translations "LOGICAL") 
+        '((#P"LOGICAL:**;*.*" #P"/tmp/**/*.*")
+          (#P"LOGICAL:**;*"   #P"/tmp/**/*")))
+
+#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+must be the same as (make-pathname :host "LOGICAL"
+                                   :directory '(:absolute "DIR" "SUBDIR")
+                                   :name "NAME" :type "TYPE" :version :newest
+                                   :case :common)
+and must translate to: #P"/tmp/dir/subdir/name.type" on unix.
+
+
+
+Merging physical pathnames specified with :case :common is also tested:
+
+  (merge-pathnames (make-pathname :directory '(:relative "DIR" "SUBDIR")
+                                  :name "NAME" :type "TYPE" :version :newest
+                                  :case :common :default #1=#P"/tmp/")
+                    #1# nil)
+
+must give #P"/tmp/dir/subdir/name.type".
+
+================================================================================
+The customary case for the file system of ECL (10.7.1) is upper case.
+--------------------------------------------------------------------------------
+Failed assertion: (EQL *CUSTOMARY-CASE* :LOWER)
+   with: *CUSTOMARY-CASE* = :UPPER
+    and: :LOWER = :LOWER
+99% of the unix path names are entirely lower case, so the customary case for 
+an implementation on unix should be lower case.
+
+================================================================================
+(MAKE-PATHNAME :HOST
+               "LOGICAL"
+               :DEVICE
+               :UNSPECIFIC
+               :DIRECTORY
+               (:ABSOLUTE "DIR" "SUBDIR")
+               :NAME
+               "NAME"
+               :TYPE
+               "TYPE"
+               :VERSION
+               :NEWEST
+               :CASE
+               :COMMON)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : "logical"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "dir" "subdir")
+Name      : "name"
+Type      : "type"
+Version   : :NEWEST
+--------------------  
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-HOST PATH :CASE :COMMON)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-HOST PATH :CASE :COMMON) = "logical"
+    and: (POP EXPECTED-VALUES) = "LOGICAL"
+19.2.2.1.2  makes no exception for pathname-host of logical pathnames.
+--------------------------------------------------------------------------------
+Failed assertion: (DIRLIST= (PATHNAME-DIRECTORY PATH :CASE :COMMON)
+                            (POP EXPECTED-VALUES))
+   with: (PATHNAME-DIRECTORY PATH :CASE :COMMON) = (:ABSOLUTE "dir" "subdir")
+    and: (POP EXPECTED-VALUES) = (:ABSOLUTE "DIR" "SUBDIR")
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-NAME PATH :CASE :COMMON)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-NAME PATH :CASE :COMMON) = "name"
+    and: (POP EXPECTED-VALUES) = "NAME"
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-TYPE PATH :CASE :COMMON)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-TYPE PATH :CASE :COMMON) = "type"
+    and: (POP EXPECTED-VALUES) = "TYPE"
+
+
+
+================================================================================
+(MAKE-PATHNAME :HOST
+               "LOGICAL"
+               :DEVICE
+               :UNSPECIFIC
+               :DIRECTORY
+               (:ABSOLUTE "DIR" "SUBDIR")
+               :NAME
+               "NAME"
+               :TYPE
+               "TYPE"
+               :VERSION
+               :NEWEST
+               :CASE
+               :LOCAL)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : "logical"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "dir" "subdir")
+Name      : "name"
+Type      : "type"
+Version   : :NEWEST
+--------------------  
+
+#P"/home/pjb/src/lisp/check-pathnames.lisp"
+> (quit)
+[pjb@kuiper :0.0 ~]$ 

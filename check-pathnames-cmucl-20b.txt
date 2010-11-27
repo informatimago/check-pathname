@@ -1,0 +1,177 @@
+
+[pjb@kuiper :0.0 lisp]$ lisp  -noinit
+CMU Common Lisp 20b (20B Unicode), running on kuiper
+With core: /data/languages/cmucl-20b/lib/cmucl/lib/lisp-sse2.core
+Dumped on: Mon, 2010-09-27 23:14:25+02:00 on lorien2
+See <http://www.cons.org/cmucl/> for support information.
+Loaded subsystems:
+    Unicode 1.8.4.1 with Unicode version 5.1.0
+    Python 1.1, target Intel x86/sse2
+    CLOS based on Gerd's PCL 2010-03-19 15:19:03
+* (load "check-pathnames.lisp")
+
+; Loading #P"/home/pjb/src/lisp/check-pathnames.lisp".
+check-pathnames of CMU Common Lisp (20b (20B Unicode))
+
+================================================================================
+
+Test and probe conforming logical pathnames, and their translation to
+unix physical pathnames.
+
+We want to check the good working of logical pathnames, and the
+translation of logical pathnames to physical pathnames, in a
+semi-standard way on unix systems.
+
+Namely, given the logical host and its translations:
+
+  (setf (logical-pathname-translations "LOGICAL") nil)
+  (setf (logical-pathname-translations "LOGICAL") 
+        '((#P"LOGICAL:**;*.*" #P"/tmp/**/*.*")
+          (#P"LOGICAL:**;*"   #P"/tmp/**/*")))
+
+#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+must be the same as (make-pathname :host "LOGICAL"
+                                   :directory '(:absolute "DIR" "SUBDIR")
+                                   :name "NAME" :type "TYPE" :version :newest
+                                   :case :common)
+and must translate to: #P"/tmp/dir/subdir/name.type" on unix.
+
+
+
+Merging physical pathnames specified with :case :common is also tested:
+
+  (merge-pathnames (make-pathname :directory '(:relative "DIR" "SUBDIR")
+                                  :name "NAME" :type "TYPE" :version :newest
+                                  :case :common :default #1=#P"/tmp/")
+                    #1# nil)
+
+must give #P"/tmp/dir/subdir/name.type" on unix.
+
+================================================================================
+--------------------------------------------------------------------------------
+Failed assertion: (IMPLY (EQL CUSTOMARY-CASE-1 :UPPER)
+                         (EQL CUSTOMARY-CASE-2 :UPPER))
+   with: (EQL CUSTOMARY-CASE-1 :UPPER) = T
+    and: (EQL CUSTOMARY-CASE-2 :UPPER) = NIL
+CUSTOMARY-CASE-1 = :UPPER
+CUSTOMARY-CASE-2 = :LOWER
+
+
+
+The customary case for the file system of CMU Common Lisp (20b (20B Unicode)) 
+seems to be lower case.
+
+
+*FEATURES* = (:GERDS-PCL :PCL-STRUCTURES :PORTABLE-COMMONLOOPS :PCL :CMU20
+              :CMU20B :PYTHON :CONSERVATIVE-FLOAT-TYPE :MODULAR-ARITH :MP :X86
+              :SSE2 :LINKAGE-TABLE :RELATIVE-PACKAGE-NAMES :EXECUTABLE :ELF
+              :LINUX :GLIBC2 :UNIX :RANDOM-MT19937 :GENCGC :UNICODE
+              :COMPLEX-FP-VOPS :PENTIUM :I486 :HASH-NEW :DOUBLE-DOUBLE
+              :HEAP-OVERFLOW-CHECK :STACK-CHECKING :COMMON :COMMON-LISP
+              :ANSI-CL :IEEE-FLOATING-POINT :CMU)
+
+
+
+
+
+================================================================================
+(MAKE-PATHNAME :HOST "LOGICAL"
+               :DEVICE :UNSPECIFIC
+               :DIRECTORY (:ABSOLUTE "DIR" "SUBDIR")
+               :NAME "NAME"
+               :TYPE "TYPE"
+               :VERSION :NEWEST
+               :CASE :COMMON)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-HOST PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-HOST PATH :CASE :LOCAL) = "LOGICAL"
+    and: (POP EXPECTED-VALUES) = "logical"
+19.2.2.1.2  makes no exception for pathname-host of logical pathnames.
+--------------------------------------------------------------------------------
+Failed assertion: (DIRLIST= (PATHNAME-DIRECTORY PATH :CASE :LOCAL)
+                            (POP EXPECTED-VALUES))
+   with: (PATHNAME-DIRECTORY PATH :CASE :LOCAL) = (:ABSOLUTE "DIR" "SUBDIR")
+    and: (POP EXPECTED-VALUES) = (:ABSOLUTE "dir" "subdir")
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-NAME PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-NAME PATH :CASE :LOCAL) = "NAME"
+    and: (POP EXPECTED-VALUES) = "name"
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-TYPE PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-TYPE PATH :CASE :LOCAL) = "TYPE"
+    and: (POP EXPECTED-VALUES) = "type"
+
+
+
+================================================================================
+(MAKE-PATHNAME :HOST "logical"
+               :DEVICE :UNSPECIFIC
+               :DIRECTORY (:ABSOLUTE "dir" "subdir")
+               :NAME "name"
+               :TYPE "type"
+               :VERSION :NEWEST
+               :CASE :LOCAL)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : "LOGICAL"
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-HOST PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-HOST PATH :CASE :LOCAL) = "LOGICAL"
+    and: (POP EXPECTED-VALUES) = "logical"
+19.2.2.1.2  makes no exception for pathname-host of logical pathnames.
+--------------------------------------------------------------------------------
+Failed assertion: (DIRLIST= (PATHNAME-DIRECTORY PATH :CASE :LOCAL)
+                            (POP EXPECTED-VALUES))
+   with: (PATHNAME-DIRECTORY PATH :CASE :LOCAL) = (:ABSOLUTE "DIR" "SUBDIR")
+    and: (POP EXPECTED-VALUES) = (:ABSOLUTE "dir" "subdir")
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-NAME PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-NAME PATH :CASE :LOCAL) = "NAME"
+    and: (POP EXPECTED-VALUES) = "name"
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-TYPE PATH :CASE :LOCAL)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-TYPE PATH :CASE :LOCAL) = "TYPE"
+    and: (POP EXPECTED-VALUES) = "type"
+
+T
+* (quit)
+[pjb@kuiper :0.0 lisp]$ 

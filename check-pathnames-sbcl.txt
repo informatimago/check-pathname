@@ -1,0 +1,371 @@
+
+[pjb@kuiper :0.0 ~]$ sbcl --no-userinit
+This is SBCL 1.0.19-gentoo, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+; loading system definition from
+; /usr/share/common-lisp/systems/asdf-binary-locations.asd into
+; #<PACKAGE "ASDF0">
+; registering #<SYSTEM ASDF-BINARY-LOCATIONS {1002BFE1B1}> as
+; ASDF-BINARY-LOCATIONS
+* (load "/home/pjb/src/lisp/check-pathnames.lisp")
+check-pathnames of SBCL (1.0.19-gentoo)
+
+================================================================================
+
+Test and probe conforming logical pathnames, and their translation to
+unix physical pathnames.
+
+We want to check the good working of logical pathnames, and the
+translation of logical pathnames to physical pathnames, in a
+semi-standard way on unix systems.
+
+Namely, given the logical host and its translations:
+
+  (setf (logical-pathname-translations "LOGICAL") nil)
+  (setf (logical-pathname-translations "LOGICAL") 
+        '((#P"LOGICAL:**;*.*" #P"/tmp/**/*.*")
+          (#P"LOGICAL:**;*"   #P"/tmp/**/*")))
+
+#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+must be the same as (make-pathname :host "LOGICAL"
+                                   :directory '(:absolute "DIR" "SUBDIR")
+                                   :name "NAME" :type "TYPE" :version :newest
+                                   :case :common)
+and must translate to: #P"/tmp/dir/subdir/name.type" on unix.
+
+
+
+Merging physical pathnames specified with :case :common is also tested:
+
+  (merge-pathnames (make-pathname :directory '(:relative "DIR" "SUBDIR")
+                                  :name "NAME" :type "TYPE" :version :newest
+                                  :case :common :default #1=#P"/tmp/")
+                    #1# nil)
+
+must give #P"/tmp/dir/subdir/name.type".
+
+================================================================================
+The customary case for the file system of SBCL (1.0.19-gentoo) is upper case.
+
+
+*FEATURES* = (:ASDF :SB-THREAD :ANSI-CL :COMMON-LISP :SBCL :SB-DOC
+              :SB-PACKAGE-LOCKS :SB-UNICODE :SB-EVAL :SB-SOURCE-LOCATIONS
+              :IEEE-FLOATING-POINT :X86-64 :UNIX :ELF :LINUX :GENCGC
+              :STACK-GROWS-DOWNWARD-NOT-UPWARD :C-STACK-IS-CONTROL-STACK
+              :LINKAGE-TABLE :COMPARE-AND-SWAP-VOPS
+              :UNWIND-TO-FRAME-AND-CALL-VOP :RAW-INSTANCE-INIT-VOPS
+              :STACK-ALLOCATABLE-CLOSURES :ALIEN-CALLBACKS :CYCLE-COUNTER
+              :OS-PROVIDES-DLOPEN :OS-PROVIDES-PUTWC :OS-PROVIDES-SUSECONDS-T)
+
+
+
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G633)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 1 note
+; in: LAMBDA NIL
+;     (PATHNAME-DIRECTORY CHECK-PATHNAMES::PATH :CASE :COMMON)
+; ==>
+;   CHECK-PATHNAMES::PATH
+; 
+; note: deleting unreachable code
+
+;     #'STRING-UPCASE
+; 
+; note: deleting unreachable code
+
+;     #'STRING-DOWNCASE
+; 
+; note: deleting unreachable code
+
+;     (FORMAT NIL "/tmp/~A"
+;             (FUNCALL CHECK-PATHNAMES::DIRECTION
+;                      (FORMAT NIL "~{~A/~}~A.~A" (REST DIRECTORY)
+;                              CHECK-PATHNAMES::NAME TYPE)))
+; ==>
+;   "/tmp/~A"
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 4 notes
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G635)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 1 note
+--------------------------------------------------------------------------------
+Failed assertion: (EQL *CUSTOMARY-CASE* :LOWER)
+   with: *CUSTOMARY-CASE* = :UPPER
+    and: :LOWER = :LOWER
+99% of the unix path names are entirely lower case, so the customary case for 
+; in: LAMBDA NIL
+;     (PATHNAME-HOST CHECK-PATHNAMES::PATH :CASE :COMMON)
+; ==>
+;   CHECK-PATHNAMES::PATH
+; 
+; note: deleting unreachable code
+
+;     (WRITE-LINE
+;      "19.2.2.1.2  makes no exception for pathname-host of logical pathnames.")
+; ==>
+;   "19.2.2.1.2  makes no exception for pathname-host of logical pathnames."
+; 
+; note: deleting unreachable code
+
+;     (PATHNAME-HOST CHECK-PATHNAMES::PATH :CASE :LOCAL)
+; ==>
+;   CHECK-PATHNAMES::PATH
+; 
+; note: deleting unreachable code
+
+;     (WRITE-STRING "
+;   Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+;   PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+;   
+;   case---one of :local or :common. The default is :local.
+;   ")
+; ==>
+;   "
+; Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+; PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+; 
+; case---one of :local or :common. The default is :local.
+; "
+; 
+; note: deleting unreachable code
+
+;     (PATHNAME-HOST CHECK-PATHNAMES::PATH :CASE :LOCAL)
+; ==>
+;   CHECK-PATHNAMES::PATH
+; 
+; note: deleting unreachable code
+
+;     (WRITE-LINE
+;      "19.2.2.1.2  makes no exception for pathname-host of logical pathnames.")
+; ==>
+;   "19.2.2.1.2  makes no exception for pathname-host of logical pathnames."
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 6 notes
+an implementation on unix should be lower case.
+
+================================================================================
+(MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC :DIRECTORY
+               (:ABSOLUTE "DIR" "SUBDIR") :NAME "NAME" :TYPE "TYPE" :VERSION
+               :NEWEST :CASE :COMMON)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  
+--------------------------------------------------------------------------------
+Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :COMMON) 'STRING)
+   with: (PATHNAME-HOST PATH :CASE :COMMON) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+    and: 'STRING = STRING
+
+Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+pathname-host pathname &key case => host
+host---a valid pathname host. 
+
+valid logical pathname host n. a string that has been defined as the
+name of a logical host.  See the function
+load-logical-pathname-translations.
+--------------------------------------------------------------------------------
+Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :LOCAL) 'STRING)
+   with: (PATHNAME-HOST PATH :CASE :LOCAL) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+    and: 'STRING = STRING
+
+Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+pathname-host pathname &key case => host
+host---a valid pathname host. 
+
+valid logical pathname host n. a string that has been defined as the
+name of a logical host.  See the function
+load-logical-pathname-translations.
+
+
+
+================================================================================
+(MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC :DIRECTORY
+               (:ABSOLUTE "DIR" "SUBDIR") :NAME "NAME" :TYPE "TYPE" :VERSION
+               :NEWEST :CASE :LOCAL)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+--------------------  :case :local (default)
+Host      : #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  :case :common
+Host      : #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+Device    : :UNSPECIFIC
+Directory : (:ABSOLUTE "DIR" "SUBDIR")
+Name      : "NAME"
+Type      : "TYPE"
+Version   : :NEWEST
+--------------------  
+--------------------------------------------------------------------------------
+Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :COMMON) 'STRING)
+   with: (PATHNAME-HOST PATH :CASE :COMMON) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+    and: 'STRING = STRING
+
+Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+pathname-host pathname &key case => host
+host---a valid pathname host. 
+
+valid logical pathname host n. a string that has been defined as the
+name of a logical host.  See the function
+load-logical-pathname-translations.
+--------------------------------------------------------------------------------
+Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :LOCAL) 'STRING)
+   with: (PATHNAME-HOST PATH :CASE :LOCAL) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
+    and: 'STRING = STRING
+
+Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
+PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
+pathname-host pathname &key case => host
+host---a valid pathname host. 
+
+valid logical pathname host n. a string that has been defined as the
+name of a logical host.  See the function
+load-logical-pathname-translations.
+--------------------------------------------------------------------------------
+Failed assertion: (DIRLIST= (PATHNAME-DIRECTORY PATH :CASE :COMMON)
+                            (POP EXPECTED-VALUES))
+   with: (PATHNAME-DIRECTORY PATH :CASE :COMMON) = (:ABSOLUTE "DIR" "SUBDIR")
+    and: (POP EXPECTED-VALUES) = (:ABSOLUTE "dir" "subdir")
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-NAME PATH :CASE :COMMON)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-NAME PATH :CASE :COMMON) = "NAME"
+    and: (POP EXPECTED-VALUES) = "name"
+--------------------------------------------------------------------------------
+Failed assertion: (STRING= (PATHNAME-TYPE PATH :CASE :COMMON)
+                           (POP EXPECTED-VALUES))
+   with: (PATHNAME-TYPE PATH :CASE :COMMON) = "TYPE"
+    and: (POP EXPECTED-VALUES) = "type"
+
+--------------------------------------------------------------------------------
+Failed assertion: (IGNORE-ERRORS
+                   (TRANSLATE-LOGICAL-PATHNAME
+                    #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"))
+Pathname components from SOURCE and FROM args to TRANSLATE-PATHNAME
+did not match:
+  :NEWEST NIL
+(LOGICAL-PATHNAME-TRANSLATIONS "LOGICAL") = ((#P"LOGICAL:**;*.*"
+                                              #P"/tmp/**/*.*")
+                                             (#P"LOGICAL:**;*" #P"/tmp/**/*"))
+
+    Function TRANSLATE-LOGICAL-PATHNAME
+
+    Pathname is first coerced to a pathname. If the coerced pathname is a
+    physical pathname, it is returned. If the coerced pathname is a
+    logical pathname, the first matching translation (according to
+    pathname-match-p) of the  logical pathname host is applied, as if by
+    calling translate-pathname. If the result is a logical pathname, this
+    process is repeated. When the result is finally a physical pathname,
+    it is returned. If no translation matches, an error is signaled.
+
+and:
+
+    Function PATHNAME-MATCH-P
+    pathname-match-p pathname wildcard => generalized-boolean
+
+    pathname-match-p returns true if pathname matches wildcard, otherwise
+    nil. The matching rules are implementation-defined but should be
+    consistent with directory.
+    Missing components of wildcard default to :wild.
+
+
+Therefore a wildcard of #P"LOGICAL:**;*.*" should be equivalent to
+#P"LOGICAL:**;*.*.*" and should match
+#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST".
+
+and:
+
+    Function TRANSLATE-PATHNAME
+
+    The resulting pathname is to-wildcard with each wildcard or missing
+    field replaced by a portion of source.
+
+Therefore whether you consider nil or :wild in the to-wildcard, the
+:newer in the from-wildcard should match and replace it!
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G658)
+; 
+; note: deleting unreachable code
+
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G657)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 2 notes
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G660)
+; 
+; note: deleting unreachable code
+
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G659)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 2 notes
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G662)
+; 
+; note: deleting unreachable code
+
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G661)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 2 notes
+; in: LAMBDA NIL
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G664)
+; 
+; note: deleting unreachable code
+
+;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G663)
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 2 notes
+T
+* (quit)
+[pjb@kuiper :0.0 ~]$ 
