@@ -1,0 +1,13 @@
+#!/bin/bash
+
+script=check-pathnames.lisp
+
+type -p abcl  >/dev/null && abcl --batch --noinit       --load  $script > check-pathnames-abcl.txt       2>&1
+type -p alisp >/dev/null && alisp -batch                 -L     $script > check-pathnames-alisp.txt      2>&1
+type -p ccl   >/dev/null && ccl  --batch --no-init      --load  $script > check-pathnames-ccl.txt        2>&1
+type -p clisp >/dev/null && clisp -ansi   -norc                 $script > check-pathnames-clisp.txt      2>&1
+type -p lisp  >/dev/null && lisp          -noinit        -load  $script > check-pathnames-cmucl-20b.txt  2>&1
+type -p ecl   >/dev/null && ecl           -norc          -load  $script > check-pathnames-ecl.txt        2>&1
+type -p gcl   >/dev/null && gcl   -batch                 -load  $script > check-pathnames-gcl.txt        2>&1
+type -p sbcl  >/dev/null && sbcl         --no-userinit  --load  $script > check-pathnames-sbcl.txt       2>&1
+
