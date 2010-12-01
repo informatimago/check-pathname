@@ -1,5 +1,3 @@
-
-[pjb@kuiper :0.0 ~]$ sbcl --no-userinit
 This is SBCL 1.0.19-gentoo, an implementation of ANSI Common Lisp.
 More information about SBCL is available at <http://www.sbcl.org/>.
 
@@ -10,9 +8,8 @@ distribution for more information.
 ; loading system definition from
 ; /usr/share/common-lisp/systems/asdf-binary-locations.asd into
 ; #<PACKAGE "ASDF0">
-; registering #<SYSTEM ASDF-BINARY-LOCATIONS {1002BFE1B1}> as
+; registering #<SYSTEM ASDF-BINARY-LOCATIONS {1002BFA1B1}> as
 ; ASDF-BINARY-LOCATIONS
-* (load "/home/pjb/src/lisp/check-pathnames.lisp")
 check-pathnames of SBCL (1.0.19-gentoo)
 
 ================================================================================
@@ -47,10 +44,31 @@ Merging physical pathnames specified with :case :common is also tested:
                                   :case :common :default #1=#P"/tmp/")
                     #1# nil)
 
-must give #P"/tmp/dir/subdir/name.type".
+must give #P"/tmp/dir/subdir/name.type" on unix.
 
 ================================================================================
-The customary case for the file system of SBCL (1.0.19-gentoo) is upper case.
+; in: LAMBDA NIL
+;     (OR "Linux" "Unix" "an undetermined system")
+; --> LET IF OR LET 
+; ==>
+;   "Unix"
+; 
+; note: deleting unreachable code
+
+; --> LET IF OR LET IF OR 
+; ==>
+;   "an undetermined system"
+; 
+; note: deleting unreachable code
+; 
+; compilation unit finished
+;   printed 2 notes
+
+
+
+With SBCL (1.0.19-gentoo) on Linux, the customary case for the file system of 
+the host #<SB-IMPL::UNIX-HOST {1000224C01}> of the pathname "/tmp/name.type" 
+seems to be lower case.
 
 
 *FEATURES* = (:ASDF :SB-THREAD :ANSI-CL :COMMON-LISP :SBCL :SB-DOC
@@ -97,6 +115,20 @@ The customary case for the file system of SBCL (1.0.19-gentoo) is upper case.
 ; 
 ; compilation unit finished
 ;   printed 4 notes
+
+; in: LAMBDA NIL
+;     (PATHNAME-HOST CHECK-PATHNAMES::P :CASE CASE)
+; 
+; caught WARNING:
+;   undefined variable: CASE
+
+; 
+; caught WARNING:
+;   This variable is undefined:
+;     CASE
+; 
+; compilation unit finished
+;   caught 2 WARNING conditions
 ; in: LAMBDA NIL
 ;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G635)
 ; 
@@ -104,11 +136,6 @@ The customary case for the file system of SBCL (1.0.19-gentoo) is upper case.
 ; 
 ; compilation unit finished
 ;   printed 1 note
---------------------------------------------------------------------------------
-Failed assertion: (EQL *CUSTOMARY-CASE* :LOWER)
-   with: *CUSTOMARY-CASE* = :UPPER
-    and: :LOWER = :LOWER
-99% of the unix path names are entirely lower case, so the customary case for 
 ; in: LAMBDA NIL
 ;     (PATHNAME-HOST CHECK-PATHNAMES::PATH :CASE :COMMON)
 ; ==>
@@ -160,7 +187,7 @@ Failed assertion: (EQL *CUSTOMARY-CASE* :LOWER)
 ; 
 ; compilation unit finished
 ;   printed 6 notes
-an implementation on unix should be lower case.
+
 
 ================================================================================
 (MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC :DIRECTORY
@@ -197,25 +224,12 @@ host---a valid pathname host.
 valid logical pathname host n. a string that has been defined as the
 name of a logical host.  See the function
 load-logical-pathname-translations.
---------------------------------------------------------------------------------
-Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :LOCAL) 'STRING)
-   with: (PATHNAME-HOST PATH :CASE :LOCAL) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
-    and: 'STRING = STRING
-
-Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
-PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
-pathname-host pathname &key case => host
-host---a valid pathname host. 
-
-valid logical pathname host n. a string that has been defined as the
-name of a logical host.  See the function
-load-logical-pathname-translations.
 
 
 
 ================================================================================
-(MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC :DIRECTORY
-               (:ABSOLUTE "DIR" "SUBDIR") :NAME "NAME" :TYPE "TYPE" :VERSION
+(MAKE-PATHNAME :HOST "logical" :DEVICE :UNSPECIFIC :DIRECTORY
+               (:ABSOLUTE "dir" "subdir") :NAME "name" :TYPE "type" :VERSION
                :NEWEST :CASE :LOCAL)
 
 
@@ -248,34 +262,6 @@ host---a valid pathname host.
 valid logical pathname host n. a string that has been defined as the
 name of a logical host.  See the function
 load-logical-pathname-translations.
---------------------------------------------------------------------------------
-Failed assertion: (TYPEP (PATHNAME-HOST PATH :CASE :LOCAL) 'STRING)
-   with: (PATHNAME-HOST PATH :CASE :LOCAL) = #<SB-KERNEL:LOGICAL-HOST "LOGICAL">
-    and: 'STRING = STRING
-
-Function PATHNAME-HOST, PATHNAME-DEVICE, PATHNAME-DIRECTORY,
-PATHNAME-NAME, PATHNAME-TYPE, PATHNAME-VERSION
-pathname-host pathname &key case => host
-host---a valid pathname host. 
-
-valid logical pathname host n. a string that has been defined as the
-name of a logical host.  See the function
-load-logical-pathname-translations.
---------------------------------------------------------------------------------
-Failed assertion: (DIRLIST= (PATHNAME-DIRECTORY PATH :CASE :COMMON)
-                            (POP EXPECTED-VALUES))
-   with: (PATHNAME-DIRECTORY PATH :CASE :COMMON) = (:ABSOLUTE "DIR" "SUBDIR")
-    and: (POP EXPECTED-VALUES) = (:ABSOLUTE "dir" "subdir")
---------------------------------------------------------------------------------
-Failed assertion: (STRING= (PATHNAME-NAME PATH :CASE :COMMON)
-                           (POP EXPECTED-VALUES))
-   with: (PATHNAME-NAME PATH :CASE :COMMON) = "NAME"
-    and: (POP EXPECTED-VALUES) = "name"
---------------------------------------------------------------------------------
-Failed assertion: (STRING= (PATHNAME-TYPE PATH :CASE :COMMON)
-                           (POP EXPECTED-VALUES))
-   with: (PATHNAME-TYPE PATH :CASE :COMMON) = "TYPE"
-    and: (POP EXPECTED-VALUES) = "type"
 
 --------------------------------------------------------------------------------
 Failed assertion: (IGNORE-ERRORS
@@ -323,49 +309,30 @@ and:
 Therefore whether you consider nil or :wild in the to-wildcard, the
 :newer in the from-wildcard should match and replace it!
 ; in: LAMBDA NIL
-;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G658)
-; 
-; note: deleting unreachable code
-
 ;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G657)
 ; 
 ; note: deleting unreachable code
 ; 
 ; compilation unit finished
-;   printed 2 notes
+;   printed 1 note
 ; in: LAMBDA NIL
-;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G660)
-; 
-; note: deleting unreachable code
-
 ;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G659)
 ; 
 ; note: deleting unreachable code
 ; 
 ; compilation unit finished
-;   printed 2 notes
+;   printed 1 note
 ; in: LAMBDA NIL
-;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G662)
-; 
-; note: deleting unreachable code
-
 ;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G661)
 ; 
 ; note: deleting unreachable code
 ; 
 ; compilation unit finished
-;   printed 2 notes
+;   printed 1 note
 ; in: LAMBDA NIL
-;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G664)
-; 
-; note: deleting unreachable code
-
 ;     (CHECK-PATHNAMES::PRINT-PATHNAME #:G663)
 ; 
 ; note: deleting unreachable code
 ; 
 ; compilation unit finished
-;   printed 2 notes
-T
-* (quit)
-[pjb@kuiper :0.0 ~]$ 
+;   printed 1 note

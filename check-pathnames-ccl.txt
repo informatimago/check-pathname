@@ -1,0 +1,420 @@
+check-pathnames of Clozure Common Lisp (Version 1.6-RC1-r14432M  (LinuxX8664))
+
+================================================================================
+
+Test and probe conforming logical pathnames, and their translation to
+unix physical pathnames.
+
+We want to check the good working of logical pathnames, and the
+translation of logical pathnames to physical pathnames, in a
+semi-standard way on unix systems.
+
+Namely, given the logical host and its translations:
+
+  (setf (logical-pathname-translations "LOGICAL") nil)
+  (setf (logical-pathname-translations "LOGICAL") 
+        '((#P"LOGICAL:**;*.*" #P"/tmp/**/*.*")
+          (#P"LOGICAL:**;*"   #P"/tmp/**/*")))
+
+#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"
+must be the same as (make-pathname :host "LOGICAL"
+                                   :directory '(:absolute "DIR" "SUBDIR")
+                                   :name "NAME" :type "TYPE" :version :newest
+                                   :case :common)
+and must translate to: #P"/tmp/dir/subdir/name.type" on unix.
+
+
+
+Merging physical pathnames specified with :case :common is also tested:
+
+  (merge-pathnames (make-pathname :directory '(:relative "DIR" "SUBDIR")
+                                  :name "NAME" :type "TYPE" :version :newest
+                                  :case :common :default #1=#P"/tmp/")
+                    #1# nil)
+
+must give #P"/tmp/dir/subdir/name.type" on unix.
+
+================================================================================
+
+
+
+With Clozure Common Lisp (Version 1.6-RC1-r14432M (LinuxX8664)) on Linux, the 
+customary case for the file system of the host :UNSPECIFIC of the pathname 
+"/tmp/name.type" seems to be lower case.
+
+
+*FEATURES* = (:PRIMARY-CLASSES :COMMON-LISP :OPENMCL :CCL :CCL-1.2 :CCL-1.3
+              :CCL-1.4 :CCL-1.5 :CCL-1.6 :CLOZURE :CLOZURE-COMMON-LISP :ANSI-CL
+              :UNIX :OPENMCL-UNICODE-STRINGS :OPENMCL-NATIVE-THREADS
+              :OPENMCL-PARTIAL-MOP :MCL-COMMON-MOP-SUBSET :OPENMCL-MOP-2
+              :OPENMCL-PRIVATE-HASH-TABLES :X86-64 :X86_64 :X8;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In CHECK: Unused lexical variable ARGUMENTS
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In CHECK: Unused lexical variable EQUAL
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In an anonymous lambda form inside COMPARE-PATHNAMES: Undeclared free variable CASE
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In an anonymous lambda form inside COMPARE-PATHNAMES: Undeclared free variable CASE
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In an anonymous lambda form inside COMPARE-PATHNAMES: Undeclared free variable CASE
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In an anonymous lambda form inside COMPARE-PATHNAMES: Undeclared free variable CASE
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In an anonymous lambda form inside COMPARE-PATHNAMES: Undeclared free variable CASE
+;Compiler warnings for "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp" :
+;   In CHECK-PATH inside an anonymous lambda form: Undeclared free variable PRINTED-REAAD-PATH
+> Error of type TYPE-ERROR: value (:ABSOLUTE "DIR"
+>                                  "SUBDIR") is not of the expected type (OR STRING
+>                                                                            SYMBOL
+>                                                                            CHARACTER).
+> While executing: STRING, in process listener(1).
+6-TARGET
+              :X86-HOST :X8664-TARGET :X8664-HOST :LINUX-HOST :LINUX-TARGET
+              :LINUXX86-TARGET :LINUXX8664-TARGET :LINUXX8664-HOST
+              :64-BIT-TARGET :64-BIT-HOST :LINUX :LITTLE-ENDIAN-TARGET
+              :LITTLE-ENDIAN-HOST)
+
+
+
+
+
+================================================================================
+(MAKE-PATHNAME
+  :HOST
+  "LOGICAL"
+  :DEVICE
+  :UNSPECIFIC
+  :DIRECTORY
+  (:ABSOLUTE "DIR" "SUBDIR")
+  :NAME
+  "NAME"
+  :TYPE
+  "TYPE"
+  :VERSION
+  :NEWEST
+  :CASE
+  :COMMON)
+
+
+LOGICAL-PATHNAME #P"LOGICAL:dir;subdir;name.type.newest"
+Fields of pathname with :case :common
+    Host      : "LOGICAL"
+    Device    : :UNSPECIFIC
+    Directory : (:ABSOLUTE "DIR" "SUBDIR")
+    Name      : "NAME"
+    Type      : "TYPE"
+    Version   : :NEWEST
+--------------------  
+ (7FB824551680) : 0 (PRINT-CALL-HISTORY
+                      :CONTEXT
+                      NIL
+                      :PROCESS
+                      NIL
+                      :ORIGIN
+                      NIL
+                      :DETAILED-P
+                      T
+                      :COUNT
+                      1152921504606846975
+                      :START-FRAME-NUMBER
+                      0
+                      :STREAM
+                      #<SYNONYM-STREAM to *TERMINAL-IO* #x302000528D3D>
+                      :PRINT-LEVEL
+                      2
+                      :PRINT-LENGTH
+                      5
+                      :SHOW-INTERNAL-FRAMES
+                      NIL
+                      :FORMAT
+                      :TRADITIONAL) 853
+  (&KEY :CONTEXT :PROCESS :ORIGIN :DETAILED-P :COUNT :START-FRAME-NUMBER
+   :STREAM :PRINT-LEVEL :PRINT-LENGTH :SHOW-INTERNAL-FRAMES :FORMAT)
+   CCL::CONTEXT: NIL
+   CCL:PROCESS: NIL
+   CCL::ORIGIN: NIL
+   CCL::DETAILED-P: T
+   COUNT: 1152921504606846975
+   CCL::START-FRAME-NUMBER: 0
+   STREAM: #<SYNONYM-STREAM to *TERMINAL-IO* #x302000528D3D>
+   CCL::PRINT-LEVEL: 2
+   CCL::PRINT-LENGTH: 5
+   CCL::SHOW-INTERNAL-FRAMES: NIL
+   FORMAT: :TRADITIONAL
+
+  CCL::FRAME-NUMBER: 0
+  CCL:*BACKTRACE-PRINT-LEVEL*: 2
+  CCL:*BACKTRACE-PRINT-LENGTH*: 5
+  CCL:*BACKTRACE-FORMAT*: :TRADITIONAL
+  *STANDARD-OUTPUT*: #<SYNONYM-STREAM to *TERMINAL-IO* #x302000528D3D>
+  *PRINT-CIRCLE*: NIL
+
+ (7FB8245517E8) : 1 (ABNORMAL-APPLICATION-EXIT) 269
+  NIL
+
+  #:G142949: (ERROR)
+  CCL::%HANDLERS%: ((ERROR) (CCL:PROCESS-RESET))
+
+ (7FB824551818) : 2 (BREAK-LOOP-HANDLE-ERROR
+                      #<TYPE-ERROR #x30200078456D>
+                      17553607533335) 1509
+  (CONDITION CCL:*TOP-ERROR-FRAME*)
+   CONDITION: #<TYPE-ERROR #x30200078456D>
+   CCL:*TOP-ERROR-FRAME*: 17553607533335
+
+  CCL::BOGUS-GLOBALS: NIL
+  CCL::NEWVALS: NIL
+  CCL::OLDVALS: NIL
+
+ (7FB824551890) : 3 (%ERROR #<TYPE-ERROR #x30200078456D> NIL 17553607533335) 357
+  (CONDITION CCL::ARGS CCL::ERROR-POINTER)
+   CONDITION: #<TYPE-ERROR #x30200078456D>
+   CCL::ARGS: NIL
+   CCL::ERROR-POINTER: 17553607533335
+
+
+
+ (7FB8245518B8) : 4 (STRING (:ABSOLUTE "DIR" "SUBDIR")) 373
+  (CCL::THING)
+   CCL::THING: (:ABSOLUTE "DIR" "SUBDIR")
+
+  #:G186704: (:ABSOLUTE "DIR" "SUBDIR")
+
+ (7FB8245518E0) : 5 (STRING-START-END (:ABSOLUTE "DIR" "SUBDIR") NIL NIL) 61
+  (STRING CCL::START CCL::END)
+   STRING: (:ABSOLUTE "DIR" "SUBDIR")
+   CCL::START: NIL
+   CCL::END: NIL
+
+
+
+ (7FB824551910) : 6 (STRING= "LOGICAL"
+                             (:ABSOLUTE "DIR" "SUBDIR")
+                             :START1
+                             0
+                             :END1
+                             7
+                             :START2
+                             NIL
+                             :END2
+                             NIL) 381
+  (CCL::STRING1 CCL::STRING2 &KEY :START1 :END1 :START2 :END2)
+   CCL::STRING1: "LOGICAL"
+   CCL::STRING2: (:ABSOLUTE "DIR" "SUBDIR")
+   CCL::START1: 0
+   CCL::END1: 7
+   CCL::START2: NIL
+   CCL::END2: NIL
+
+
+
+ (7FB824551998) : 7 (FUNCALL #'#<CHECK-PATH>
+                             (MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC ...)
+                             #P"LOGICAL:dir;subdir;name.type.newest"
+                             "LOGICAL"
+                             :UNSPECIFIC
+                             (:ABSOLUTE "DIR" "SUBDIR")
+                             "NAME"
+                             "TYPE"
+                             :NEWEST
+                             :COMMON
+                             ("#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE\""
+ "#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST\"")) 2389
+  (PATH-FORM PATH HOST DEVICE DIRECTORY NAME TYPE VERSION CASE EXPECTED-PRINTED)
+   PATH-FORM: (MAKE-PATHNAME :HOST "LOGICAL" :DEVICE :UNSPECIFIC ...)
+   PATH: #P"LOGICAL:dir;subdir;name.type.newest"
+   HOST: "LOGICAL"
+   DEVICE: :UNSPECIFIC
+   DIRECTORY: (:ABSOLUTE "DIR" "SUBDIR")
+   NAME: "NAME"
+   TYPE: "TYPE"
+   VERSION: :NEWEST
+   CASE: :COMMON
+   EXPECTED-PRINTED: ("#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE\""
+                      "#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST\"")
+
+  EXPECTED-VALUES: ("NAME" "TYPE")
+  #:G225: "LOGICAL"
+  #:G226: "LOGICAL"
+
+ (7FB824551A18) : 8 (FUNCALL #'#<Anonymous Function #x30200078716F>) 365
+  NIL
+
+
+
+ (7FB824551A30) : 9 (FUNCALL #'#<(:INTERNAL CCL::WITH-COMPILATION-UNIT-BODY CCL::LOAD-FROM-STREAM)>) 773
+  NIL
+
+  CCL::ENV: #<CCL::LEXICAL-ENVIRONMENT #x302000532A8D>
+  CCL::*NX-SOURCE-NOTE-MAP*: #<HASH-TABLE :TEST EQ size 1204/1549 #x302000532A0D>
+  CCL::*LOADING-TOPLEVEL-LOCATION*: #<SOURCE-NOTE *"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp":15461-29102 "(flet ((check-path (path-form path host device directory name type version case expected-printed) (format t \"~2%~80,,,'=...">
+  PRINT: NIL
+  CCL::VAL: (FLET (#) (LET # #) (CASE *CUSTOMARY-CASE* # #))
+  CCL::EOF-VAL: (NIL)
+  STREAM: #<BASIC-FILE-CHARACTER-INPUT-STREAM ("/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"/4 ISO-8859-1) #x3020005338CD>
+
+ (7FB824551AC0) : 10 (CALL-WITH-COMPILATION-UNIT
+                       #<CCL:COMPILED-LEXICAL-CLOSURE (:INTERNAL CCL::WITH-COMPILATION-UNIT-BODY
+                                CCL::LOAD-FROM-STREAM) #x7FB8255C521F>
+                       :OVERRIDE
+                       NIL) 197
+  (CCL::THUNK &KEY :OVERRIDE)
+   CCL::THUNK: #<CCL:COMPILED-LEXICAL-CLOSURE (:INTERNAL
+                                               CCL::WITH-COMPILATION-UNIT-BODY
+                                               CCL::LOAD-FROM-STREAM) #x7FB8255C521F>
+   CCL::OVERRIDE: NIL
+
+  CCL::*OUTSTANDING-DEFERRED-WARNINGS*: #<CCL::DEFERRED-WARNINGS #x302000532B6D>
+
+ (7FB824551B08) : 11 (LOAD-FROM-STREAM
+                       #<BASIC-FILE-CHARACTER-INPUT-STREAM ("/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"/4 ISO-8859-1) #x3020005338CD>
+                       NIL) 389
+  (STREAM PRINT)
+   STREAM: #<BASIC-FILE-CHARACTER-INPUT-STREAM ("/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"/4 ISO-8859-1) #x3020005338CD>
+   PRINT: NIL
+
+  CCL::EOF-VAL: (NIL)
+  CCL::VAL: (FLET (#) (LET # #) (CASE *CUSTOMARY-CASE* # #))
+  #:WITH-COMPILATION-UNIT-BODY: #<CCL:COMPILED-LEXICAL-CLOSURE (:INTERNAL
+                                                                CCL::WITH-COMPILATION-UNIT-BODY
+                                                                CCL::LOAD-FROM-STREAM) #x7FB8255C521F>
+
+ (7FB824551B48) : 12 (%LOAD #P"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"
+                            NIL
+                            NIL
+                            :ERROR
+                            :DEFAULT) 4789
+  (CCL::FILE-NAME CCL::VERBOSE PRINT CCL::IF-DOES-NOT-EXIST CCL:EXTERNAL-FORMAT)
+   CCL::FILE-NAME: #P"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"
+   CCL::VERBOSE: NIL
+   PRINT: NIL
+   CCL::IF-DOES-NOT-EXIST: :ERROR
+   CCL:EXTERNAL-FORMAT: :DEFAULT
+
+  CCL::SOURCE-FILE: #P"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"
+  *LOAD-PATHNAME*: #P"check-pathnames.lisp"
+  *LOAD-TRUENAME*: #P"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"
+  *PACKAGE*: #<Package "CHECK-PATHNAMES">
+  *READTABLE*: #<READTABLE #x30200033AFBD>
+  CCL::*LOADING-FILES*: (#P"/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp")
+  CCL:*LOADING-FILE-SOURCE-FILE*: "/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"
+  CCL::*LOADING-TOPLEVEL-LOCATION*: NIL
+  #:G136703: #<BASIC-FILE-CHARACTER-INPUT-STREAM ("/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"/4 ISO-8859-1) #x3020005338CD>
+  #:G136704: NIL
+  STREAM: #<BASIC-FILE-CHARACTER-INPUT-STREAM ("/home/pjb/src/lisp/check-pathnames/check-pathnames.lisp"/4 ISO-8859-1) #x3020005338CD>
+
+ (7FB824551C98) : 13 (LOAD "check-pathnames.lisp"
+                           :VERBOSE
+                           NIL
+                           :PRINT
+                           NIL
+                           :IF-DOES-NOT-EXIST
+                           :ERROR
+                           :EXTERNAL-FORMAT
+                           :DEFAULT) 1021
+  (CCL::FILE-NAME &KEY :VERBOSE :PRINT :IF-DOES-NOT-EXIST :EXTERNAL-FORMAT)
+   CCL::FILE-NAME: "check-pathnames.lisp"
+   CCL::VERBOSE: NIL
+   PRINT: NIL
+   CCL::IF-DOES-NOT-EXIST: :ERROR
+   CCL:EXTERNAL-FORMAT: :DEFAULT
+
+  #:LOAD-OTHER: #<RESTART CCL::LOAD-OTHER #x7FB8255C54AD>
+  #:SKIP-LOAD: #<RESTART CCL::SKIP-LOAD #x7FB8255C545D>
+  #:RETRY-LOAD: #<RESTART CCL::RETRY-LOAD #x7FB8255C540D>
+  #:G136646: (#<RESTART CCL::RETRY-LOAD #x7FB8255C540D>
+              #<RESTART CCL::SKIP-LOAD #x7FB8255C545D>
+              #<RESTART CCL::LOAD-OTHER #x7FB8255C54AD>)
+  CCL::%RESTARTS%: ((#<RESTART CCL::RETRY-LOAD #x7FB8255C540D>
+                     #<RESTART CCL::SKIP-LOAD #x7FB8255C545D>
+                     #<RESTART CCL::LOAD-OTHER #x7FB8255C54AD>)
+                    (#<RESTART CONTINUE #x7FB8255C55BD>)
+                    (#<RESTART ABORT #x7FB8255C56CD>)
+                    (#<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+                     #<RESTART ABORT #x7FB8255C58BD>))
+
+ (7FB824551D38) : 14 (FUNCALL #'#<(:INTERNAL CCL::LOAD-FILE CCL::STARTUP-CCL)>
+                              "check-pathnames.lisp") 485
+  (CCL::NAME)
+   CCL::NAME: "check-pathnames.lisp"
+
+  #:CONTINUE: #<RESTART CONTINUE #x7FB8255C55BD>
+  #:G142550: (#<RESTART CONTINUE #x7FB8255C55BD>)
+  CCL::%RESTARTS%: ((#<RESTART CONTINUE #x7FB8255C55BD>)
+                    (#<RESTART ABORT #x7FB8255C56CD>)
+                    (#<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+                     #<RESTART ABORT #x7FB8255C58BD>))
+
+ (7FB824551D80) : 15 (STARTUP-CCL NIL) 1677
+  (&OPTIONAL CCL::INIT-FILE)
+   CCL::INIT-FILE: NIL
+
+  #:ABORT: #<RESTART ABORT #x7FB8255C56CD>
+  #:G142540: (#<RESTART ABORT #x7FB8255C56CD>)
+  CCL::%RESTARTS%: ((#<RESTART ABORT #x7FB8255C56CD>)
+                    (#<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+                     #<RESTART ABORT #x7FB8255C58BD>))
+  #:G142545: ((:LOAD . "check-pathnames.lisp"))
+  CCL::P: (:LOAD . "check-pathnames.lisp")
+  CCL::PARAM: "check-pathnames.lisp"
+  #:G142548: :LOAD
+
+ (7FB824551DF0) : 16 (FUNCALL #'#<(:INTERNAL (CCL:TOPLEVEL-FUNCTION (CCL::LISP-DEVELOPMENT-SYSTEM T)))>) 77
+  NIL
+
+  CCL::F: CCL::LISTENER-FUNCTION
+  CCL::INIT-FILE: ("home:ccl-init" "home:\\.ccl-init")
+
+ (7FB824551E10) : 17 (FUNCALL #'#<(:INTERNAL CCL::MAKE-MCL-LISTENER-PROCESS)>) 741
+  NIL
+
+  *TERMINAL-IO*: #<ECHOING-TWO-WAY-STREAM input #<BASIC-CHARACTER-INPUT-STREAM ISO-8859-1 (TTY/0) #x30200052A31D>, output #<BASIC-CHARACTER-OUTPUT-STREAM ISO-8859-1 (FILE/1) #x302000529D8D> #x30200053496D>
+  CCL::CLOSE-STREAMS: NIL
+  CCL::CLEANUP-FUNCTION: #<CCL:COMPILED-LEXICAL-CLOSURE (:INTERNAL
+                                                         #) #x302000527E5F>
+  CCL::INITIAL-FUNCTION: #<CCL:COMPILED-LEXICAL-CLOSURE (:INTERNAL
+                                                         #) #x302000527E0F>
+  CCL::AUTO-FLUSH: T
+  CCL:OUTPUT-STREAM: #<BASIC-CHARACTER-OUTPUT-STREAM ISO-8859-1 (FILE/1) #x302000529D8D>
+  CCL:INPUT-STREAM: #<BASIC-CHARACTER-INPUT-STREAM ISO-8859-1 (TTY/0) #x30200052A31D>
+  CCL::ECHOING: T
+
+ (7FB824551EB0) : 18 (RUN-PROCESS-INITIAL-FORM
+                       #<TTY-LISTENER listener(1) [Active] #x3020005278DD>
+                       (#<CCL:COMPILED-LEXICAL-CLOSURE # #x3020005272FF>)) 717
+  (CCL:PROCESS CCL::INITIAL-FORM)
+   CCL:PROCESS: #<TTY-LISTENER listener(1) [Active] #x3020005278DD>
+   CCL::INITIAL-FORM: (#<CCL:COMPILED-LEXICAL-CLOSURE # #x3020005272FF>)
+
+  CCL::EXITED: NIL
+  #:G144733: (CCL:PROCESS-RESET)
+  CCL::%HANDLERS%: ((CCL:PROCESS-RESET))
+  #:ABORT: #<RESTART ABORT #x7FB8255C58BD>
+  #:ABORT-BREAK: #<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+  #:G144734: (#<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+              #<RESTART ABORT #x7FB8255C58BD>)
+  CCL::%RESTARTS%: ((#<RESTART CCL:ABORT-BREAK #x7FB8255C586D>
+                     #<RESTART ABORT #x7FB8255C58BD>))
+
+ (7FB824551F48) : 19 (FUNCALL #'#<(:INTERNAL (CCL::%PROCESS-PRESET-INTERNAL (CCL:PROCESS)))>
+                              #<TTY-LISTENER listener(1) [Active] #x3020005278DD>
+                              (#<CCL:COMPILED-LEXICAL-CLOSURE # #x3020005272FF>)) 389
+  (CCL:PROCESS CCL::INITIAL-FORM)
+   CCL:PROCESS: #<TTY-LISTENER listener(1) [Active] #x3020005278DD>
+   CCL::INITIAL-FORM: (#<CCL:COMPILED-LEXICAL-CLOSURE # #x3020005272FF>)
+
+  CCL:*CURRENT-PROCESS*: #<TTY-LISTENER listener(1) [Active] #x3020005278DD>
+  #:G144721: (CCL::*FREE-XPS* CCL::*FREE-CIRCULARITY-HASH-TABLES*
+              CCL::*LOGICAL-BLOCK-XP* CCL::*FORMAT-TOP-LEVEL*
+              CCL::*FORMAT-STREAM-STACK* ...)
+  #:G144722: (NIL NIL NIL NIL NIL ...)
+
+ (7FB824551F98) : 20 (FUNCALL #'#<(:INTERNAL CCL::THREAD-MAKE-STARTUP-FUNCTION)>) 301
+  NIL
+
+  CCL::*CURRENT-LISP-THREAD*: #<LISP-THREAD listener [tcr @ #x7FB8247B6580] #x3020005273DD>
+  CCL::INITIAL-FUNCTION: (#<Compiled-function # (Non-Global)  #x3000004FE4EF>
+                          #<TTY-LISTENER listener(1) [Active] #x3020005278DD> #)
+  CCL::TCR: 17553607847088
+  CCL::THREAD: #<LISP-THREAD listener [tcr @ #x7FB8247B6580] #x3020005273DD>
+

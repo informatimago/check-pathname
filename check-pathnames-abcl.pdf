@@ -1,0 +1,6778 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+4 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 62.69291
+ 633.5936
+ 161.0429
+ 645.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 527.0227
+ 633.5936
+ 532.5827
+ 645.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 201.0236
+ 0 ]
+ /Rect [ 62.69291
+ 615.5936
+ 134.9229
+ 627.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 201.0236
+ 0 ]
+ /Rect [ 527.0227
+ 615.5936
+ 532.5827
+ 627.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 62.69291
+ 597.5936
+ 167.7529
+ 609.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 527.0227
+ 597.5936
+ 532.5827
+ 609.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 288.0236
+ 0 ]
+ /Rect [ 62.69291
+ 579.5936
+ 319.9729
+ 591.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 288.0236
+ 0 ]
+ /Rect [ 527.0227
+ 579.5936
+ 532.5827
+ 591.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 639.0236
+ 0 ]
+ /Rect [ 62.69291
+ 561.5936
+ 432.8029
+ 573.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 639.0236
+ 0 ]
+ /Rect [ 527.0227
+ 561.5936
+ 532.5827
+ 573.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /Rect [ 62.69291
+ 543.5936
+ 265.5229
+ 555.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /Rect [ 527.0227
+ 543.5936
+ 532.5827
+ 555.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 252.0236
+ 0 ]
+ /Rect [ 62.69291
+ 525.5936
+ 257.2029
+ 537.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 252.0236
+ 0 ]
+ /Rect [ 527.0227
+ 525.5936
+ 532.5827
+ 537.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 219.0236
+ 0 ]
+ /Rect [ 62.69291
+ 507.5936
+ 252.1829
+ 519.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 219.0236
+ 0 ]
+ /Rect [ 527.0227
+ 507.5936
+ 532.5827
+ 519.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 186.0236
+ 0 ]
+ /Rect [ 82.69291
+ 489.5936
+ 133.2729
+ 501.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 186.0236
+ 0 ]
+ /Rect [ 82.69291
+ 477.5936
+ 443.2729
+ 489.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 186.0236
+ 0 ]
+ /Rect [ 527.0227
+ 489.5936
+ 532.5827
+ 501.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Rect [ 82.69291
+ 459.5936
+ 133.2729
+ 471.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Rect [ 82.69291
+ 447.5936
+ 413.2729
+ 459.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Rect [ 527.0227
+ 459.5936
+ 532.5827
+ 471.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 663.0236
+ 0 ]
+ /Rect [ 82.69291
+ 429.5936
+ 133.2729
+ 441.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 663.0236
+ 0 ]
+ /Rect [ 82.69291
+ 417.5936
+ 410.5029
+ 429.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 663.0236
+ 0 ]
+ /Rect [ 527.0227
+ 429.5936
+ 532.5827
+ 441.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 225.0236
+ 0 ]
+ /Rect [ 62.69291
+ 399.5936
+ 316.6629
+ 411.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 225.0236
+ 0 ]
+ /Rect [ 527.0227
+ 399.5936
+ 532.5827
+ 411.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 192.0236
+ 0 ]
+ /Rect [ 82.69291
+ 381.5936
+ 404.4429
+ 393.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 192.0236
+ 0 ]
+ /Rect [ 527.0227
+ 381.5936
+ 532.5827
+ 393.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class LinkAnnotation 
+33 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 255.0236
+ 0 ]
+ /Rect [ 82.69291
+ 363.5936
+ 404.9929
+ 375.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class LinkAnnotation 
+34 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 255.0236
+ 0 ]
+ /Rect [ 527.0227
+ 363.5936
+ 532.5827
+ 375.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+35 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 309.0236
+ 0 ]
+ /Rect [ 82.69291
+ 345.5936
+ 422.7829
+ 357.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class LinkAnnotation 
+36 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 309.0236
+ 0 ]
+ /Rect [ 527.0227
+ 345.5936
+ 532.5827
+ 357.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class LinkAnnotation 
+37 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 363.0236
+ 0 ]
+ /Rect [ 82.69291
+ 327.5936
+ 423.8929
+ 339.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 363.0236
+ 0 ]
+ /Rect [ 527.0227
+ 327.5936
+ 532.5827
+ 339.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class LinkAnnotation 
+39 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 417.0236
+ 0 ]
+ /Rect [ 82.69291
+ 309.5936
+ 404.9929
+ 321.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 417.0236
+ 0 ]
+ /Rect [ 527.0227
+ 309.5936
+ 532.5827
+ 321.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+41 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 60 0 R
+ /XYZ
+ 62.69291
+ 471.0236
+ 0 ]
+ /Rect [ 82.69291
+ 291.5936
+ 423.3329
+ 303.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class LinkAnnotation 
+42 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 60 0 R
+ /XYZ
+ 62.69291
+ 471.0236
+ 0 ]
+ /Rect [ 521.4627
+ 291.5936
+ 532.5827
+ 303.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class LinkAnnotation 
+43 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Rect [ 62.69291
+ 273.5936
+ 403.9029
+ 285.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class LinkAnnotation 
+44 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Rect [ 521.4627
+ 273.5936
+ 532.5827
+ 285.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class LinkAnnotation 
+45 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 369.0236
+ 0 ]
+ /Rect [ 82.69291
+ 255.5936
+ 399.4529
+ 267.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class LinkAnnotation 
+46 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 369.0236
+ 0 ]
+ /Rect [ 521.4627
+ 255.5936
+ 532.5827
+ 267.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class LinkAnnotation 
+47 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 62 0 R
+ /XYZ
+ 62.69291
+ 237.0236
+ 0 ]
+ /Rect [ 82.69291
+ 237.5936
+ 399.4529
+ 249.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class LinkAnnotation 
+48 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 62 0 R
+ /XYZ
+ 62.69291
+ 237.0236
+ 0 ]
+ /Rect [ 521.4627
+ 237.5936
+ 532.5827
+ 249.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER46': class LinkAnnotation 
+49 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 64 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 219.5936
+ 403.9029
+ 231.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class LinkAnnotation 
+50 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 64 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 521.4627
+ 219.5936
+ 532.5827
+ 231.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+51 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R
+ 38 0 R
+ 39 0 R
+ 40 0 R
+ 41 0 R
+ 42 0 R
+ 43 0 R
+ 44 0 R
+ 45 0 R
+ 46 0 R
+ 47 0 R
+ 48 0 R
+ 49 0 R
+ 50 0 R ]
+ /Contents 91 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+52 0 obj
+% Page dictionary
+<< /Contents 92 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+53 0 obj
+% Page dictionary
+<< /Contents 93 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+54 0 obj
+% Page dictionary
+<< /Contents 94 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page5': class PDFPage 
+55 0 obj
+% Page dictionary
+<< /Contents 95 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page6': class PDFPage 
+56 0 obj
+% Page dictionary
+<< /Contents 96 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page7': class PDFPage 
+57 0 obj
+% Page dictionary
+<< /Contents 97 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page8': class PDFPage 
+58 0 obj
+% Page dictionary
+<< /Contents 98 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page9': class PDFPage 
+59 0 obj
+% Page dictionary
+<< /Contents 99 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page10': class PDFPage 
+60 0 obj
+% Page dictionary
+<< /Contents 100 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page11': class PDFPage 
+61 0 obj
+% Page dictionary
+<< /Contents 101 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page12': class PDFPage 
+62 0 obj
+% Page dictionary
+<< /Contents 102 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page13': class PDFPage 
+63 0 obj
+% Page dictionary
+<< /Contents 103 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page14': class PDFPage 
+64 0 obj
+% Page dictionary
+<< /Contents 104 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 90 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R65': class PDFCatalog 
+65 0 obj
+% Document Root
+<< /Outlines 67 0 R
+ /PageLabels 105 0 R
+ /PageMode /UseNone
+ /Pages 90 0 R
+ /Type /Catalog >>
+endobj
+% 'R66': class PDFInfo 
+66 0 obj
+<< /Author ()
+ /CreationDate (D:20101201032118-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (check-pathnames of Armed Bear Common Lisp \(0.24.0-dev\)) >>
+endobj
+% 'R67': class PDFOutlines 
+67 0 obj
+<< /Count 25
+ /First 68 0 R
+ /Last 89 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+68 0 obj
+<< /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Next 69 0 R
+ /Parent 67 0 R
+ /Title (\376\377\0001\000\240\000\240\000\240\000T\000a\000b\000l\000e\000 \000o\000f\000 \000C\000o\000n\000t\000e\000n\000t\000s) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+69 0 obj
+<< /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 201.0236
+ 0 ]
+ /Next 70 0 R
+ /Parent 67 0 R
+ /Prev 68 0 R
+ /Title (\376\377\0002\000\240\000\240\000\240\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+70 0 obj
+<< /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Next 71 0 R
+ /Parent 67 0 R
+ /Prev 69 0 R
+ /Title (\376\377\0003\000\240\000\240\000\240\000P\000r\000e\000l\000i\000m\000i\000n\000a\000r\000y\000 \000c\000h\000e\000c\000k\000s) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+71 0 obj
+<< /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 288.0236
+ 0 ]
+ /Next 72 0 R
+ /Parent 67 0 R
+ /Prev 70 0 R
+ /Title (\376\377\0004\000\240\000\240\000\240\000P\000a\000t\000h\000n\000a\000m\000e\000 \000A\000c\000c\000e\000s\000s\000o\000r\000 \000C\000h\000e\000c\000k\000s\000 \000w\000i\000t\000h\000 \000:\000C\000A\000S\000E\000 \000:\000C\000O\000M\000M\000O\000N) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+72 0 obj
+<< /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 639.0236
+ 0 ]
+ /Next 73 0 R
+ /Parent 67 0 R
+ /Prev 71 0 R
+ /Title (\376\377\0005\000\240\000\240\000\240\000P\000a\000t\000h\000n\000a\000m\000e\000 \000A\000c\000c\000e\000s\000s\000o\000r\000 \000C\000h\000e\000c\000k\000s\000 \000w\000i\000t\000h\000 \000:\000C\000A\000S\000E\000 \000:\000L\000O\000C\000A\000L\000 \000\(\000c\000u\000s\000t\000o\000m\000a\000r\000y\000 \000c\000a\000s\000e\000 \000i\000s\000 \000l\000o\000w\000e\000r\000\)) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+73 0 obj
+<< /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /Next 74 0 R
+ /Parent 67 0 R
+ /Prev 72 0 R
+ /Title (\376\377\0006\000\240\000\240\000\240\000L\000o\000g\000i\000c\000a\000l\000 \000P\000a\000t\000h\000n\000a\000m\000e\000 \000C\000o\000n\000s\000t\000r\000u\000c\000t\000i\000o\000n\000 \000C\000h\000e\000c\000k\000s) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+74 0 obj
+<< /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 252.0236
+ 0 ]
+ /Next 75 0 R
+ /Parent 67 0 R
+ /Prev 73 0 R
+ /Title (\376\377\0007\000\240\000\240\000\240\000L\000o\000g\000i\000c\000a\000l\000 \000P\000a\000t\000h\000n\000a\000m\000e\000 \000T\000r\000a\000n\000s\000l\000a\000t\000i\000o\000n\000 \000C\000h\000e\000c\000k\000s) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+75 0 obj
+<< /Count 3
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 219.0236
+ 0 ]
+ /First 76 0 R
+ /Last 78 0 R
+ /Next 79 0 R
+ /Parent 67 0 R
+ /Prev 74 0 R
+ /Title (\376\377\0008\000\240\000\240\000\240\000U\000n\000i\000x\000 \000P\000a\000t\000h\000n\000a\000m\000e\000 \000C\000o\000n\000s\000t\000r\000u\000c\000t\000i\000o\000n\000 \000C\000h\000e\000c\000k\000s) >>
+endobj
+% 'Outline.23.0': class OutlineEntryObject 
+76 0 obj
+<< /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 186.0236
+ 0 ]
+ /Next 77 0 R
+ /Parent 75 0 R
+ /Title (\376\377\0008\000.\0001\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000U\000N\000I\000X\000/\000M\000E\000R\000G\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000S\000/\000M\000A\000K\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000C\000A\000S\000E\000-\000C\000O\000M\000M\000O\000N\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.23.1': class OutlineEntryObject 
+77 0 obj
+<< /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /Next 78 0 R
+ /Parent 75 0 R
+ /Prev 76 0 R
+ /Title (\376\377\0008\000.\0002\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000U\000N\000I\000X\000/\000M\000E\000R\000G\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000S\000/\000M\000A\000K\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000C\000A\000S\000E\000-\000C\000O\000M\000M\000O\000N\000/\000N\000A\000M\000E) >>
+endobj
+% 'Outline.23.2': class OutlineEntryObject 
+78 0 obj
+<< /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 663.0236
+ 0 ]
+ /Parent 75 0 R
+ /Prev 77 0 R
+ /Title (\376\377\0008\000.\0003\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000U\000N\000I\000X\000/\000M\000E\000R\000G\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000S\000/\000M\000A\000K\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000C\000A\000S\000E\000-\000C\000O\000M\000M\000O\000N\000/\000T\000Y\000P\000E) >>
+endobj
+% 'Outline.8': class OutlineEntryObject 
+79 0 obj
+<< /Count 6
+ /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 225.0236
+ 0 ]
+ /First 80 0 R
+ /Last 85 0 R
+ /Next 86 0 R
+ /Parent 67 0 R
+ /Prev 75 0 R
+ /Title (\376\377\0009\000\240\000\240\000\240\000C\000h\000e\000c\000k\000i\000n\000g\000 \000T\000r\000a\000n\000s\000l\000a\000t\000i\000o\000n\000s\000 \000b\000e\000t\000w\000e\000e\000n\000 \000l\000o\000g\000i\000c\000a\000l\000 \000p\000a\000t\000h\000n\000a\000m\000e\000s) >>
+endobj
+% 'Outline.24.0': class OutlineEntryObject 
+80 0 obj
+<< /Dest [ 55 0 R
+ /XYZ
+ 62.69291
+ 192.0236
+ 0 ]
+ /Next 81 0 R
+ /Parent 79 0 R
+ /Title (\376\377\0009\000.\0001\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000S\000E\000L\000F\000/\000A\0003\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.24.1': class OutlineEntryObject 
+81 0 obj
+<< /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 255.0236
+ 0 ]
+ /Next 82 0 R
+ /Parent 79 0 R
+ /Prev 80 0 R
+ /Title (\376\377\0009\000.\0002\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000S\000E\000L\000F\000/\000C\0004\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.24.2': class OutlineEntryObject 
+82 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 309.0236
+ 0 ]
+ /Next 83 0 R
+ /Parent 79 0 R
+ /Prev 81 0 R
+ /Title (\376\377\0009\000.\0003\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000L\000O\000G\000I\000C\000A\000L\000/\000E\0003\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.24.3': class OutlineEntryObject 
+83 0 obj
+<< /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 363.0236
+ 0 ]
+ /Next 84 0 R
+ /Parent 79 0 R
+ /Prev 82 0 R
+ /Title (\376\377\0009\000.\0004\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000L\000O\000G\000I\000C\000A\000L\000/\000G\0004\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.24.4': class OutlineEntryObject 
+84 0 obj
+<< /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 417.0236
+ 0 ]
+ /Next 85 0 R
+ /Parent 79 0 R
+ /Prev 83 0 R
+ /Title (\376\377\0009\000.\0005\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000S\000E\000L\000F\000/\000R\0004\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.24.5': class OutlineEntryObject 
+85 0 obj
+<< /Dest [ 60 0 R
+ /XYZ
+ 62.69291
+ 471.0236
+ 0 ]
+ /Parent 79 0 R
+ /Prev 84 0 R
+ /Title (\376\377\0009\000.\0006\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000L\000O\000G\000I\000C\000A\000L\000/\000R\0005\000/\000D\000I\000R\000E\000C\000T\000O\000R\000Y) >>
+endobj
+% 'Outline.9': class OutlineEntryObject 
+86 0 obj
+<< /Count 2
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 423.0236
+ 0 ]
+ /First 87 0 R
+ /Last 88 0 R
+ /Next 89 0 R
+ /Parent 67 0 R
+ /Prev 79 0 R
+ /Title (\376\377\0001\0000\000\240\000\240\000\240\000C\000h\000e\000c\000k\000i\000n\000g\000 \000T\000r\000a\000n\000s\000l\000a\000t\000i\000o\000n\000s\000 \000f\000r\000o\000m\000 \000l\000o\000g\000i\000c\000a\000l\000 \000p\000a\000t\000h\000n\000a\000m\000e\000 \000t\000o\000 \000p\000h\000y\000s\000i\000c\000a\000l\000 \000p\000a\000t\000h\000n\000a\000m\000e) >>
+endobj
+% 'Outline.25.0': class OutlineEntryObject 
+87 0 obj
+<< /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 369.0236
+ 0 ]
+ /Next 88 0 R
+ /Parent 86 0 R
+ /Title (\376\377\0001\0000\000.\0001\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000U\000N\000I\000X\000/\000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000P\000H\000Y\000S\000I\000C\000A\000L\000/\0005\000A) >>
+endobj
+% 'Outline.25.1': class OutlineEntryObject 
+88 0 obj
+<< /Dest [ 62 0 R
+ /XYZ
+ 62.69291
+ 237.0236
+ 0 ]
+ /Parent 86 0 R
+ /Prev 87 0 R
+ /Title (\376\377\0001\0000\000.\0002\000\240\000\240\000\240\000C\000h\000e\000c\000k\000 \000U\000N\000I\000X\000/\000T\000R\000A\000N\000S\000L\000A\000T\000E\000-\000P\000A\000T\000H\000N\000A\000M\000E\000/\000L\000O\000G\000I\000C\000A\000L\000/\000P\000H\000Y\000S\000I\000C\000A\000L\000/\0001\000B) >>
+endobj
+% 'Outline.10': class OutlineEntryObject 
+89 0 obj
+<< /Dest [ 64 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 67 0 R
+ /Prev 86 0 R
+ /Title (\376\377\0001\0001\000\240\000\240\000\240\000C\000h\000e\000c\000k\000i\000n\000g\000 \000T\000r\000a\000n\000s\000l\000a\000t\000i\000o\000n\000s\000 \000f\000r\000o\000m\000 \000p\000h\000y\000s\000i\000c\000a\000l\000 \000p\000a\000t\000h\000n\000a\000m\000e\000 \000t\000o\000 \000l\000o\000g\000i\000c\000a\000l\000 \000p\000a\000t\000h\000n\000a\000m\000e) >>
+endobj
+% 'R90': class PDFPages 
+90 0 obj
+% page tree
+<< /Count 14
+ /Kids [ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R
+ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
+ 60 0 R
+ 61 0 R
+ 62 0 R
+ 63 0 R
+ 64 0 R ]
+ /Type /Pages >>
+endobj
+% 'R91': class PDFStream 
+91 0 obj
+% page stream
+<< /Length 8107 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 33.64 Tm /F2 20 Tf 24 TL 9.344882 0 Td (check-pathnames of Armed Bear Common Lisp) Tj T* 170.58 0 Td (\(0.24.0-dev\)) Tj T* -179.9249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (1   Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 417 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 417 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 399 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 399 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 381 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Preliminary checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 381 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 363 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Pathname Accessor Checks with :CASE :COMMON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 363 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 345 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Pathname Accessor Checks with :CASE :LOCAL \(customary case is lower\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 345 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 327 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Logical Pathname Construction Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 327 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 309 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (7   Logical Pathname Translation Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 309 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 291 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (8   Unix Pathname Construction Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 291 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 261 cm
+q
+BT 1 0 0 1 20 16.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (8.1   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 273 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 231 cm
+q
+BT 1 0 0 1 20 16.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (8.2   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 243 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 201 cm
+q
+BT 1 0 0 1 20 16.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (8.3   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 213 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 183 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (9   Checking Translations between logical pathnames) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 183 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 165 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.1   Check TRANSLATE-PATHNAME/LOGICAL/SELF/A3/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 165 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 147 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.2   Check TRANSLATE-PATHNAME/LOGICAL/SELF/C4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 147 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 129 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.3   Check TRANSLATE-PATHNAME/LOGICAL/LOGICAL/E3/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 129 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 111 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.4   Check TRANSLATE-PATHNAME/LOGICAL/LOGICAL/G4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 111 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 93 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.5   Check TRANSLATE-PATHNAME/LOGICAL/SELF/R4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 93 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (9.6   Check TRANSLATE-PATHNAME/LOGICAL/LOGICAL/R5/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (10   Checking Translations from logical pathname to physical pathname) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (10.1   Check UNIX/TRANSLATE-PATHNAME/LOGICAL/PHYSICAL/5A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 20 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (10.2   Check UNIX/TRANSLATE-PATHNAME/LOGICAL/PHYSICAL/1B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 60.88 0 Td (12) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (11   Checking Translations from physical pathname to logical pathname) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 4.82 Tm /F2 10 Tf 12 TL 60.88 0 Td (14) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 180.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (2   Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 162.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Test and probe conforming logical pathnames, and their translation to unix physical pathnames.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 132.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.50686 Tw (We want to check the good working of logical pathnames, and the translation of logical pathnames to) Tj T* 0 Tw (physical pathnames, in a semi-standard way on unix systems.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Namely, given the logical hosts and their translations:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 108.0236 cm
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOGICAL"\) nil\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 84.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOGICAL"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.02362 cm
+Q
+ 
+endstream
+
+endobj
+% 'R92': class PDFStream 
+92 0 obj
+% page stream
+<< /Length 6809 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 55 4.82 Tm /F1 10 Tf 12 TL ('\(\(#P"LOGICAL:**;*.*" #P"/tmp/**/*.*"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 65 4.82 Tm /F1 10 Tf 12 TL (\(#P"LOGICAL:**;*" #P"/tmp/**/*"\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOG1"\) nil\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOG1"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 55 4.82 Tm /F1 10 Tf 12 TL ('\(\(#P"LOG1:**;*.*" #P"/tmp/log1/**/*.*"\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOG2"\) nil\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(setf \(logical-pathname-translations "LOG2"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 55 4.82 Tm /F1 10 Tf 12 TL ('\(\(#P"LOG2:**;*.*" #P"/tmp/log2/**/*.*"\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Then:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (#P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (must be the same as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 40 4.82 Tm /F1 10 Tf 12 TL (\(make-pathname :host "LOGICAL") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 115 4.82 Tm /F1 10 Tf 12 TL (:directory '\(:absolute "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 115 4.82 Tm /F1 10 Tf 12 TL (:name "NAME" :type "TYPE" :version :newest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 115 4.82 Tm /F1 10 Tf 12 TL (:case :common\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (and must translate to: #P"/tmp/dir/subdir/name.type" on unix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Merging physical pathnames specified with :case :common is also tested:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 25 4.82 Tm /F1 10 Tf 12 TL (\(merge-pathnames \(make-pathname :directory '\(:relative "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 185 4.82 Tm /F1 10 Tf 12 TL (:name "NAME" :type "TYPE" :version :newest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 185 4.82 Tm /F1 10 Tf 12 TL (:case :common :default #1=#P"/tmp/"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 115 4.82 Tm /F1 10 Tf 12 TL (#1# nil\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (must give #P"/tmp/dir/subdir/name.type" on unix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (\(An empty section means that all tests passed successfully\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Preliminary checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .538221 Tw (With Armed Bear Common Lisp \(0.24.0-dev\) on Linux, the customary case for the file system of the host) Tj T* 0 Tw (NIL of the pathname "/tmp/name.type" seems to be lower case. Which was expected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 330.0236 cm
+Q
+q
+1 0 0 1 62.69291 318.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (*FEATURES* = \(:X86-64 :JAVA-1.6 :ARMEDBEAR :ABCL :COMMON-LISP :ANSI-CL :UNIX) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 312.0236 cm
+Q
+q
+1 0 0 1 62.69291 300.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 85 4.82 Tm /F1 10 Tf 12 TL (:LINUX :CDR6\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.0236 cm
+Q
+q
+1 0 0 1 62.69291 300.0236 cm
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Pathname Accessor Checks with :CASE :COMMON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (We're considering the pathname built with:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(MAKE-PATHNAME :HOST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("LOGICAL") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:DEVICE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (\(:ABSOLUTE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:VERSION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:NEWEST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:CASE) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R93': class PDFStream 
+93 0 obj
+% page stream
+<< /Length 5934 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:COMMON\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 753.0236 cm
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOGICAL") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : :NEWEST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+BT 1 0 0 1 0 29.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5   Pathname Accessor Checks with :CASE :LOCAL) Tj T* (\(customary case is lower\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (We're considering the pathname built with:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(MAKE-PATHNAME :HOST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("logical") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:DEVICE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (\(:ABSOLUTE "dir" "subdir"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("name") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL ("type") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:VERSION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 423.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:NEWEST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:CASE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 90 4.82 Tm /F1 10 Tf 12 TL (:LOCAL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOGICAL") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : :NEWEST) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+Q
+q
+1 0 0 1 62.69291 264.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6   Logical Pathname Construction Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (7   Logical Pathname Translation Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 198.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (8   Unix Pathname Construction Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 150.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (8.1   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 132.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.0236 cm
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(DIRLIST= '\(:ABSOLUTE "tmp" "dir" "subdir"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 108.0236 cm
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 65 4.82 Tm /F1 10 Tf 12 TL (\(PATHNAME-DIRECTORY PATH :CASE :LOCAL\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+Q
+q
+1 0 0 1 62.69291 90.02362 cm
+Q
+q
+1 0 0 1 62.69291 78.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname PATH = \(MERGE-PATHNAMES \(MAKE-PATHNAME :DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 76.86614 cm
+Q
+ 
+endstream
+
+endobj
+% 'R94': class PDFStream 
+94 0 obj
+% page stream
+<< /Length 6700 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 759.0236 cm
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ('\(:RELATIVE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:CASE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:COMMON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:DEFAULTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (NIL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/DIR/SUBDIR/NAME.TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (8.2   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(EQUAL "name" \(PATHNAME-NAME PATH :CASE :LOCAL\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname PATH = \(MERGE-PATHNAMES \(MAKE-PATHNAME :DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ('\(:RELATIVE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:CASE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:COMMON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:DEFAULTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (NIL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/DIR/SUBDIR/NAME.TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 135.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 111.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+Q
+ 
+endstream
+
+endobj
+% 'R95': class PDFStream 
+95 0 obj
+% page stream
+<< /Length 6294 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (8.3   Check) Tj T* (UNIX/MERGE-PATHNAMES/MAKE-PATHNAME/CASE-COMMON/TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(EQUAL "type" \(PATHNAME-TYPE PATH :CASE :LOCAL\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname PATH = \(MERGE-PATHNAMES \(MAKE-PATHNAME :DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ('\(:RELATIVE "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:NAME) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:TYPE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL ("TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:CASE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:COMMON) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (:DEFAULTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 255 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (#P"/tmp/") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 180 4.82 Tm /F1 10 Tf 12 TL (NIL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/DIR/SUBDIR/NAME.TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "DIR" "SUBDIR"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYPE") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 204.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (9   Checking Translations between logical pathnames) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 156.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.1   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/SELF/A3/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 138.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 132.0236 cm
+Q
+q
+1 0 0 1 62.69291 108.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 108.0236 cm
+Q
+q
+1 0 0 1 62.69291 102.0236 cm
+Q
+q
+1 0 0 1 62.69291 90.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R96': class PDFStream 
+96 0 obj
+% page stream
+<< /Length 7043 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD-INFERIORS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG1:UVW;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:UVW;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG1:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work within the same logical host.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.2   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/SELF/C4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+Q
+q
+1 0 0 1 62.69291 111.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R97': class PDFStream 
+97 0 obj
+% page stream
+<< /Length 7100 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD :WILD\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG1:UVW;*;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:UVW;*;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" :WILD "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG1:UVW;ABC;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:UVW;ABC;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.0236 cm
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "ABC" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work within the same logical host.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.3   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/LOGICAL/E3/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R98': class PDFStream 
+98 0 obj
+% page stream
+<< /Length 7054 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD-INFERIORS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG2:UVW;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG2:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work from logical host to logical host.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.4   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/LOGICAL/G4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 111.0236 cm
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R99': class PDFStream 
+99 0 obj
+% page stream
+<< /Length 7103 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD :WILD\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG2:UVW;*;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;*;XYZ;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" :WILD "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG2:UVW;ABC;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;ABC;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "ABC" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work from logical host to logical host.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.5   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/SELF/R4/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+Q
+ 
+endstream
+
+endobj
+% 'R100': class PDFStream 
+100 0 obj
+% page stream
+<< /Length 7078 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:**;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD-INFERIORS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work within the same logical host.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (9.6   Check) Tj T* (TRANSLATE-PATHNAME/LOGICAL/LOGICAL/R5/DIRECTORY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:COMMON\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname TO-PAT = #P"LOG2:UVW;XYZ.*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;XYZ.*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R101': class PDFStream 
+101 0 obj
+% page stream
+<< /Length 6572 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "XYZ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 7.241953 Tw (Logical-Pathname TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT) Tj T* 0 Tw (TO-PAT\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;XYZ.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "XYZ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname EXPECTED = #P"LOG2:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG2:UVW;XYZ;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG2") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "UVW" "XYZ"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (translate-pathname should work from logical pathname to logical pathname.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+q
+BT 1 0 0 1 0 29.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (10   Checking Translations from logical pathname to) Tj T* (physical pathname) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (10.1   Check) Tj T* (UNIX/TRANSLATE-PATHNAME/LOGICAL/PHYSICAL/5A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:LOCAL\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 135.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:*;*;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE :WILD :WILD\)) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R102': class PDFStream 
+102 0 obj
+% page stream
+<< /Length 7046 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname TO-PAT = #P"/tmp/log3/uvw/*/xyz/*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/log3/uvw/*/xyz/*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "uvw" :WILD "xyz"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "uvw" :WILD "xyz"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+Q
+q
+1 0 0 1 62.69291 483.0236 cm
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname EXPECTED = #P"/tmp/log3/uvw/abc/xyz/name.typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/log3/uvw/abc/xyz/name.typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "uvw" "abc" "xyz"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "name") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "uvw" "abc" "xyz"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "name") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.589069 Tw (translate-pathname should work from logical pathname to physical pathname, translating to customary) Tj T* 0 Tw (case.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+BT 1 0 0 1 0 25.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (10.2   Check) Tj T* (UNIX/TRANSLATE-PATHNAME/LOGICAL/PHYSICAL/1B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Failed assertion:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 16.82 Tm /F1 10 Tf 12 TL 5.434961 Tw (\(AND \(PATHNAMEP TRANSLATED\) \(PATHNAME-EQUAL TRANSLATED EXPECTED :CASE) Tj T* 0 Tw (:LOCAL\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+Q
+q
+1 0 0 1 62.69291 135.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname PATH = #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;NAME.TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 111.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R103': class PDFStream 
+103 0 obj
+% page stream
+<< /Length 7131 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "NAME") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "TYP") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Logical-Pathname FROM-PAT = #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a LOGICAL-PATHNAME: #P"LOG1:ABC;DEF;*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : "LOG1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : :UNSPECIFIC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "ABC" "DEF"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname TO-PAT = #P"/tmp/log3/**/*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/log3/**/*.*") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" :WILD-INFERIORS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 423.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" :WILD-INFERIORS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : :WILD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (TRANSLATED = \(CHECKED-TRANSLATE-PATHNAME PATH FROM-PAT TO-PAT\) =) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (\(:ERROR "Unsupported case in TRANSLATE-DIRECTORY-COMPONENTS."\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (Pathname EXPECTED = #P"/tmp/log3/abc/def/name.typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (is a PATHNAME: #P"/tmp/log3/abc/def/name.typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :local \(default\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "abc" "def"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "name") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 15 4.82 Tm /F1 10 Tf 12 TL (The fields of this pathname with :case :common are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Host : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Device : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Directory : \(:ABSOLUTE "tmp" "log3" "abc" "def"\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Name : "name") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Type : "typ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 35 4.82 Tm /F1 10 Tf 12 TL (Version : NIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.589069 Tw (translate-pathname should work from logical pathname to physical pathname, translating to customary) Tj T* 0 Tw (case.) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R104': class PDFStream 
+104 0 obj
+% page stream
+<< /Length 225 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+BT 1 0 0 1 0 29.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (11   Checking Translations from physical pathname to) Tj T* (logical pathname) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R105': class PDFPageLabels 
+105 0 obj
+% Document Root
+<< /Nums [ 0
+ 106 0 R
+ 1
+ 107 0 R
+ 2
+ 108 0 R
+ 3
+ 109 0 R
+ 4
+ 110 0 R
+ 5
+ 111 0 R
+ 6
+ 112 0 R
+ 7
+ 113 0 R
+ 8
+ 114 0 R
+ 9
+ 115 0 R
+ 10
+ 116 0 R
+ 11
+ 117 0 R
+ 12
+ 118 0 R
+ 13
+ 119 0 R ] >>
+endobj
+% 'R106': class PDFPageLabel 
+106 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R107': class PDFPageLabel 
+107 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R108': class PDFPageLabel 
+108 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R109': class PDFPageLabel 
+109 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R110': class PDFPageLabel 
+110 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R111': class PDFPageLabel 
+111 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R112': class PDFPageLabel 
+112 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R113': class PDFPageLabel 
+113 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R114': class PDFPageLabel 
+114 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+% 'R115': class PDFPageLabel 
+115 0 obj
+% None
+<< /S /D
+ /St 10 >>
+endobj
+% 'R116': class PDFPageLabel 
+116 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
+% 'R117': class PDFPageLabel 
+117 0 obj
+% None
+<< /S /D
+ /St 12 >>
+endobj
+% 'R118': class PDFPageLabel 
+118 0 obj
+% None
+<< /S /D
+ /St 13 >>
+endobj
+% 'R119': class PDFPageLabel 
+119 0 obj
+% None
+<< /S /D
+ /St 14 >>
+endobj
+xref
+0 120
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000574 00000 n
+0000000815 00000 n
+0000001056 00000 n
+0000001297 00000 n
+0000001538 00000 n
+0000001779 00000 n
+0000002020 00000 n
+0000002262 00000 n
+0000002504 00000 n
+0000002747 00000 n
+0000002990 00000 n
+0000003233 00000 n
+0000003476 00000 n
+0000003719 00000 n
+0000003962 00000 n
+0000004205 00000 n
+0000004448 00000 n
+0000004691 00000 n
+0000004934 00000 n
+0000005177 00000 n
+0000005420 00000 n
+0000005663 00000 n
+0000005906 00000 n
+0000006149 00000 n
+0000006392 00000 n
+0000006635 00000 n
+0000006878 00000 n
+0000007121 00000 n
+0000007364 00000 n
+0000007607 00000 n
+0000007850 00000 n
+0000008093 00000 n
+0000008336 00000 n
+0000008579 00000 n
+0000008822 00000 n
+0000009065 00000 n
+0000009308 00000 n
+0000009551 00000 n
+0000009794 00000 n
+0000010037 00000 n
+0000010280 00000 n
+0000010523 00000 n
+0000010766 00000 n
+0000011009 00000 n
+0000011252 00000 n
+0000011495 00000 n
+0000011738 00000 n
+0000011965 00000 n
+0000012674 00000 n
+0000012954 00000 n
+0000013234 00000 n
+0000013514 00000 n
+0000013794 00000 n
+0000014074 00000 n
+0000014354 00000 n
+0000014634 00000 n
+0000014915 00000 n
+0000015197 00000 n
+0000015479 00000 n
+0000015761 00000 n
+0000016043 00000 n
+0000016325 00000 n
+0000016485 00000 n
+0000016753 00000 n
+0000016879 00000 n
+0000017162 00000 n
+0000017435 00000 n
+0000017738 00000 n
+0000018166 00000 n
+0000018721 00000 n
+0000019114 00000 n
+0000019502 00000 n
+0000019925 00000 n
+0000020446 00000 n
+0000020957 00000 n
+0000021450 00000 n
+0000021943 00000 n
+0000022404 00000 n
+0000022880 00000 n
+0000023371 00000 n
+0000023862 00000 n
+0000024338 00000 n
+0000024811 00000 n
+0000025394 00000 n
+0000025855 00000 n
+0000026314 00000 n
+0000026821 00000 n
+0000027047 00000 n
+0000035255 00000 n
+0000042165 00000 n
+0000048200 00000 n
+0000055001 00000 n
+0000061396 00000 n
+0000068540 00000 n
+0000075741 00000 n
+0000082896 00000 n
+0000090101 00000 n
+0000097282 00000 n
+0000103957 00000 n
+0000111106 00000 n
+0000118340 00000 n
+0000118671 00000 n
+0000118953 00000 n
+0000119032 00000 n
+0000119111 00000 n
+0000119190 00000 n
+0000119269 00000 n
+0000119348 00000 n
+0000119427 00000 n
+0000119506 00000 n
+0000119585 00000 n
+0000119664 00000 n
+0000119744 00000 n
+0000119824 00000 n
+0000119904 00000 n
+0000119984 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\201PN?\310\027\)\234\341\037=W\205~s\314) (\201PN?\310\027\)\234\341\037=W\205~s\314)] 
+
+ /Info 66 0 R
+ /Root 65 0 R
+ /Size 120 >>
+startxref
+120033
+%%EOF

@@ -1,5 +1,4 @@
-(load "/home/pjb/src/lisp/check-pathnames.lisp")
-; Loading /home/pjb/src/lisp/check-pathnames.lisp
+check-pathnames of International Allegro CL Free Express Edition (8.2 [Linux (x86)] (Sep 11, 2010 7:36))
 
 ================================================================================
 
@@ -33,11 +32,32 @@ Merging physical pathnames specified with :case :common is also tested:
                                   :case :common :default #1=#P"/tmp/")
                     #1# nil)
 
-must give #P"/tmp/dir/subdir/name.type".
+must give #P"/tmp/dir/subdir/name.type" on unix.
 
 ================================================================================
-The customary case for the file system of International Allegro CL Free Express 
-Edition (8.2 [Linux (x86)] (Sep 11, 2010 7:36)) is lower case.
+
+
+
+With International Allegro CL Free Express Edition (8.2 [Linux (x86)] (Sep 11, 
+2010 7:36)) on Linux, the customary case for the file system of the host NIL of 
+the pathname "/tmp/name.type" seems to be lower case.
+
+
+*FEATURES* = (:ALLEGRO-CL-EXPRESS :ALLEGRO-CL-TRIAL :IPV6 :ACL-SOCKET
+              :HIPER-SOCKET :PROFILER :COMPILER :USE-STRUCTS-IN-COMPILER :CLOS
+              :ATOMIC-SUBWORD-SETF :ATOMIC-SETF :DYNLOAD :DLFCN :UNIX :LINUX
+              :REDHAT9 :LINUX86 :X86 :VERIFY-STACK :VERIFY-CAR-CDR
+              :LITTLE-ENDIAN :ENCAPSULATING-EFS :RELATIVE-PACKAGE-NAMES
+              :MODULE-VERSIONS :IEEE :IEEE-FLOATING-POINT :CONFORMING-IEEE
+              :GNU-SOURCE :ICS :COMMON-LISP :ANSI-CL :DRAFT-ANSI-CL-2 :X3J13
+              :ALLEGRO :EXCL :FRANZ-INC :ALLEGRO-VERSION>= :ALLEGRO-VERSION=
+              :NEW-ENVIRONMENTS :GSGC :FLAVORS :MULTIPROCESSING
+              :USE-THREAD-LIBS :DYNLOAD-ACL-LIBRARY :ALLEGRO-V8.2 :SMP-MACROS
+              :SSL-SUPPORT)
+
+
+
+
 
 ================================================================================
 (MAKE-PATHNAME :HOST "LOGICAL"
@@ -50,366 +70,14 @@ Edition (8.2 [Linux (x86)] (Sep 11, 2010 7:36)) is lower case.
 
 
 LOGICAL-PATHNAME #P"LOGICAL:dir;subdir;name.type"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
+Fields of pathname with :case :common
+    Host      : "logical"
+    Device    : NIL
+    Directory : (:ABSOLUTE "DIR" "SUBDIR")
+    Name      : "NAME"
+    Type      : "TYPE"
+    Version   : NIL
 --------------------  
---------------------------------------------------------------------------------
-Failed assertion: (STRING= #1=(PATHNAME-HOST PATH :CASE :COMMON)
-                           #2=(POP EXPECTED-VALUES))
-   with: #1# = "logical"
-    and: #2# = "LOGICAL"
-19.2.2.1.2  makes no exception for pathname-host of logical pathnames.
---------------------------------------------------------------------------------
-Failed assertion: (EQL #1=(PATHNAME-DEVICE PATH :CASE :COMMON) :UNSPECIFIC)
-   with: #1# = NIL
-    and: :UNSPECIFIC = :UNSPECIFIC
-
-19.3.2.1 Unspecific Components of a Logical Pathname
-
-The device component of a logical pathname is always :unspecific; no
-other component of a logical pathname can be :unspecific.
---------------------------------------------------------------------------------
-Failed assertion: (STRING= EXPECTED-PRINTED #1=(PRIN1-TO-STRING PATH))
-   with: EXPECTED-PRINTED = "#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE\""
-    and: #1# = "#P\"LOGICAL:dir;subdir;name.type\""
-
-It would be better if logical pathnames were printed using upper case
-letters, mostly because of 19.3.1.1.7, and because:
-
-    22.1.1 Overview of The Lisp Printer
-
-    Reading a printed representation typically produces an object that is
-    equal to the originally printed object. 
-
-and
-
-    2.4.8.14 Sharpsign P
-
-    #P reads a following object, which must be a string.
-
-    #P<<expression>> is equivalent to #.(parse-namestring '<<expression>>),
-    except that #P is not affected by *read-eval*.
-
-and
-
-    Function PARSE-NAMESTRING
-
-    * If host is nil and thing is a syntactically valid logical pathname
-      namestring containing an explicit host, then it is parsed as a
-      logical pathname namestring.
-
-and
-
-    19.3.1.1.7 Lowercase Letters in a Logical Pathname Namestring
-    When parsing words and wildcard-words, lowercase letters are translated to uppercase.
-
-Notice that means that a logical pathname built with mixed cases (or
-lower case), cannot be printed readably with a conforming syntax (but
-it doesn't matter, since it's not a conforming logical pathname
-anyways).
---------------------------------------------------------------------------------
-Failed assertion: (STRING= #1=(PATHNAME-HOST PATH :CASE :LOCAL)
-                           #2=(POP EXPECTED-VALUES))
-   with: #1# = "LOGICAL"
-    and: #2# = "logical"
-19.2.2.1.2  makes no exception for pathname-host of logical pathnames.
-
-
-
-================================================================================
-(MAKE-PATHNAME :HOST "logical"
-  :DEVICE :UNSPECIFIC
-  :DIRECTORY (:ABSOLUTE "dir" "subdir")
-  :NAME "name"
-  :TYPE "type"
-  :VERSION :NEWEST
-  :CASE :LOCAL)
-
-
-LOGICAL-PATHNAME #P"logical:dir;subdir;name.type"
---------------------  :case :local (default)
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  :case :common
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  
---------------------------------------------------------------------------------
-Failed assertion: (EQL #1=(PATHNAME-DEVICE PATH :CASE :COMMON) :UNSPECIFIC)
-   with: #1# = NIL
-    and: :UNSPECIFIC = :UNSPECIFIC
-
-19.3.2.1 Unspecific Components of a Logical Pathname
-
-The device component of a logical pathname is always :unspecific; no
-other component of a logical pathname can be :unspecific.
---------------------------------------------------------------------------------
-Failed assertion: (STRING= EXPECTED-PRINTED #1=(PRIN1-TO-STRING PATH))
-   with: EXPECTED-PRINTED = "#P\"LOGICAL:DIR;SUBDIR;NAME.TYPE\""
-    and: #1# = "#P\"logical:dir;subdir;name.type\""
-
-It would be better if logical pathnames were printed using upper case
-letters, mostly because of 19.3.1.1.7, and because:
-
-    22.1.1 Overview of The Lisp Printer
-
-    Reading a printed representation typically produces an object that is
-    equal to the originally printed object. 
-
-and
-
-    2.4.8.14 Sharpsign P
-
-    #P reads a following object, which must be a string.
-
-    #P<<expression>> is equivalent to #.(parse-namestring '<<expression>>),
-    except that #P is not affected by *read-eval*.
-
-and
-
-    Function PARSE-NAMESTRING
-
-    * If host is nil and thing is a syntactically valid logical pathname
-      namestring containing an explicit host, then it is parsed as a
-      logical pathname namestring.
-
-and
-
-    19.3.1.1.7 Lowercase Letters in a Logical Pathname Namestring
-    When parsing words and wildcard-words, lowercase letters are translated to uppercase.
-
-Notice that means that a logical pathname built with mixed cases (or
-lower case), cannot be printed readably with a conforming syntax (but
-it doesn't matter, since it's not a conforming logical pathname
-anyways).
-
---------------------------------------------------------------------------------
-Failed assertion: (PATHNAME-EQUAL
-                     #1=(LOGICAL-PATHNAME "LOGICAL:dir;subdir;name.type.newest")
-                     #2=(LOGICAL-PATHNAME "LOGICAL:DIR;SUBDIR;NAME.TYPE.NEWEST"))
-   with: #1# = #P"LOGICAL:dir;subdir;name.type"
-    and: #2# = #P"LOGICAL:DIR;SUBDIR;NAME.TYPE"
-
-    19.3.1.1.7 Lowercase Letters in a Logical Pathname Namestring
-    When parsing words and wildcard-words, lowercase letters are translated to uppercase.
-
-LOGICAL-PATHNAME #P"LOGICAL:dir;subdir;name.type"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  
-
-LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  
---------------------------------------------------------------------------------
-Failed assertion: (PATHNAME-EQUAL #1=#P"LOGICAL:dir;subdir;name.type"
-                                  #2=#P"LOGICAL:DIR;SUBDIR;NAME.TYPE")
-   with: #1# = #1#
-    and: #2# = #2#
-
-    2.4.8.14 Sharpsign P
-
-    #P reads a following object, which must be a string.
-
-    #P<<expression>> is equivalent to #.(parse-namestring '<<expression>>),
-    except that #P is not affected by *read-eval*.
-
-and
-
-    Function PARSE-NAMESTRING
-
-    * If host is nil and thing is a syntactically valid logical pathname
-      namestring containing an explicit host, then it is parsed as a
-      logical pathname namestring.
-
-and
-
-    19.3.1.1.7 Lowercase Letters in a Logical Pathname Namestring
-    When parsing words and wildcard-words, lowercase letters are translated to uppercase.
-
-LOGICAL-PATHNAME #P"LOGICAL:dir;subdir;name.type"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  
-
-LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  
---------------------------------------------------------------------------------
-Failed assertion: (PATHNAME-EQUAL #1=#P"LOGICAL:DIR;SUBDIR;NAME.TYPE"
-                                  #2=(MAKE-PATHNAME :HOST "LOGICAL"
-                                       :DEVICE :UNSPECIFIC
-                                       :DIRECTORY '(:ABSOLUTE "DIR" "SUBDIR")
-                                       :NAME "NAME"
-                                       :TYPE "TYPE"
-                                       :VERSION :NEWEST
-                                       :CASE :COMMON))
-   with: #1# = #1#
-    and: #2# = #P"LOGICAL:dir;subdir;name.type"
-
-LOGICAL-PATHNAME #P"LOGICAL:DIR;SUBDIR;NAME.TYPE"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  
-
-LOGICAL-PATHNAME #P"LOGICAL:dir;subdir;name.type"
---------------------  :case :local (default)
-Host      : "LOGICAL"
-Device    : NIL
-Directory : (:ABSOLUTE "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : NIL
---------------------  :case :common
-Host      : "logical"
-Device    : NIL
-Directory : (:ABSOLUTE "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : NIL
---------------------  
---------------------------------------------------------------------------------
-Failed assertion: (PATHNAME-EQUAL
-                     #1=(TRANSLATE-LOGICAL-PATHNAME
-                           #P"LOGICAL:DIR;SUBDIR;NAME.TYPE")
-                     #2=(TRANSLATE-LOGICAL-PATHNAME
-                           (MAKE-PATHNAME :HOST "LOGICAL"
-                             :DEVICE :UNSPECIFIC
-                             :DIRECTORY '(:ABSOLUTE "DIR" "SUBDIR")
-                             :NAME "NAME"
-                             :TYPE "TYPE"
-                             :VERSION :NEWEST
-                             :CASE :COMMON)))
-   with: #1# = #P"/tmp/DIR/SUBDIR/NAME.TYPE"
-    and: #2# = #P"/tmp/dir/subdir/name.type"
-
-PATHNAME #P"/tmp/DIR/SUBDIR/NAME.TYPE"
---------------------  :case :local (default)
-Host      : NIL
-Device    : :UNSPECIFIC
-Directory : (:ABSOLUTE "tmp" "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : :UNSPECIFIC
---------------------  :case :common
-Host      : NIL
-Device    : :UNSPECIFIC
-Directory : (:ABSOLUTE "TMP" "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : :UNSPECIFIC
---------------------  
-
-PATHNAME #P"/tmp/dir/subdir/name.type"
---------------------  :case :local (default)
-Host      : NIL
-Device    : :UNSPECIFIC
-Directory : (:ABSOLUTE "tmp" "dir" "subdir")
-Name      : "name"
-Type      : "type"
-Version   : :UNSPECIFIC
---------------------  :case :common
-Host      : NIL
-Device    : :UNSPECIFIC
-Directory : (:ABSOLUTE "TMP" "DIR" "SUBDIR")
-Name      : "NAME"
-Type      : "TYPE"
-Version   : :UNSPECIFIC
---------------------  
---------------------------------------------------------------------------------
-Failed assertion: (EQUAL #1='#2=(:ABSOLUTE "tmp")
-                         #3=(PATHNAME-DIRECTORY
-                               (MAKE-PATHNAME :NAME "NAME"
-                                 :TYPE "TYPE"
-                                 :CASE :COMMON
-                                 :DEFAULTS #P"/tmp/")
-                              :CASE :LOCAL))
-   with: #1# = #2#
-    and: #3# = (:ABSOLUTE "TMP")
-MAKE-PATHNAME :CASE parameter does not apply on the :DEFAULTS parameter!
-"19.2.2.1.2 Case in Pathname Components"
-T
-CL-USER(11): (exit)
-; Exiting
+An unhandled error occurred during initialization:
+An error occurred (EXCL::STRING2 argument should be a string) during
+the load "check-pathnames.lisp"
